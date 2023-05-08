@@ -142,8 +142,8 @@ function register_acf_blocks() {
 	register_block_type( __DIR__ . '/blocks/timeline' );
 	register_block_type( __DIR__ . '/blocks/inner-hero-1' );
 	register_block_type( __DIR__ . '/blocks/inner-hero-2' );
-
 	register_block_type( __DIR__ . '/blocks/fp-section' );
+	register_block_type( __DIR__ . '/blocks/countdown' );
 }
 
 

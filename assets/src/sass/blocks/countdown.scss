@@ -1,0 +1,226 @@
+.il-countdown{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:65%;
+    @include limbo-max{
+        width:100%;
+    }
+
+    &-wrapper{
+        z-index: 3;
+        position: relative;//radial-gradient(202.94% 1552.42% at 51.02% 42.43%, #144A9D 0%, #132051 100%)
+        @extend .container;
+        background: url( ../../../assets/icons/when.png), radial-gradient(90% 1552.42% at 51.02% 42.43%, #144A9D 0%, #132051 100%);
+        background-position: left top, center center;
+        background-repeat:no-repeat, no-repeat;
+        background-size:contain, cover;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding:5.625rem 3.75rem 5.625rem 15.625rem;
+        @include limbo-max{
+            max-width: 100%;
+            width: 100%;
+        }
+        @include limbo-only{
+            padding:7.5rem 5rem;
+        } 
+        @include limbo-max{
+            flex-direction: column;
+   
+        }
+        @include tab-max{
+            background:  linear-gradient(90deg, #EB3C85 -12.9%, #8758EA 7.46%, #0BCBD7 61.77%, #4785F3 102.5%);
+            background-position: center center;
+            background-repeat:no-repeat;
+            background-size: cover;
+            padding:7.5rem 5rem;
+        }
+    }
+    &-item{
+        color:#fff;
+        text-align: center;
+        &:not(:last-child){
+            margin-right: 7rem;
+            @include tab-max{
+                margin-right: 2.5rem;
+            }
+        }
+        h3{
+            font-size: 11.2rem;
+            font-family: 'Anton';
+            font-weight: 400;
+            line-height: 12rem;
+            @include lg-desk-min{
+                font-size: 9rem;
+                line-height: 9.6rem;
+            }
+            @include limbo-max {
+                font-size: 11.6rem;
+                line-height: 12.6rem;
+            }
+            @include tab-max{
+                font-size: 9.33rem;
+                line-height: 10rem;
+            }
+            @include mob-only{
+                font-size: 7.6rem;
+                line-height: 8.4rem;
+            }
+        }
+        p{
+            font-family: 'Raleway';
+            font-size: 4.125rem;
+            font-weight: 400;
+            line-height: 4.625rem;
+            margin: 0;
+            @include lg-desk-min{
+                font-size: 3.3rem;
+                line-height: 3.6rem;
+            }
+            @include limbo-max {
+                font-size: 3.83rem;
+                line-height: 4.5rem;
+            }
+   
+            @include mob-only{
+                font-size: 3.6rem;
+                line-height: 4rem;
+            }
+        }
+
+    }
+    &-links{
+        width: 35%;
+        @include limbo-max{
+            width:100%;
+        }
+        ul{
+            list-style: none;
+            color:#fff;
+            font-weight: 700;
+            padding-left: 20%;
+            margin-left: 0;
+            margin-bottom: 0;
+            border-left: 1px solid #fff;
+            @include sm-desk-max{
+                padding-left: 16%;
+            }
+            @include limbo-max{
+               display: flex;
+               flex-direction: row;
+               flex-wrap: wrap;
+               justify-content: center;
+               padding-left: 0;
+               border-left: none;
+               padding-top: 5rem;
+            }
+           
+            li{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: center;
+                padding: 1.5rem 0;
+                font-size: 2.75rem;
+                font-family: 'Raleway';
+                font-weight: 400;
+                line-height: 3.375rem;
+                @include sm-desk-max{
+                    font-size: 2.57rem;
+                    line-height: 3.43rem;
+                }
+                &:not(:last-child){
+                    @include limbo-max{
+                        margin-right: 3.33rem;
+                    }
+                }
+                
+                cursor: pointer;
+                svg{
+                    margin-right: 1.125rem;
+                }
+                a{
+                    color:#fff;
+                    text-decoration: none;
+                    font-size: 2.75rem;
+                    line-height: 3.375rem;
+                    font-family: 'Raleway';
+                    font-weight: 400;
+                    @include lg-desk-min{
+                        font-size: 2.2rem;
+                        line-height: 2.7rem;
+                    }
+                    @include sm-desk-max{
+                        font-size: 2.57rem;
+                        line-height: 3.43rem;
+                    }
+                }
+                .add-to-calendar-links{
+                    display:none;
+                }
+                &.il-countdown-add-to-calendar{
+                    .add-to-calendar-wrapper{
+                        position: relative;
+
+                        .add-to-calendar-links{
+                            position: absolute;
+                            top:-3.125rem;
+                            width: 210px;
+                            @include md-desk-min {
+                                width: 270px;
+                            }
+                            padding: 2.5rem 2rem;
+                            background: #fff;
+                            z-index: 99;
+                            background: #FFFFFF;
+                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+                            a{
+                                color:#000;
+                                margin-bottom: 0.5rem;
+                                display: flex;
+                                flex-direction: row;
+                                flex-wrap: wrap;
+                                justify-content: flex-start;
+                                align-items: center;
+                                svg{
+                                    margin-right: 2rem;
+                                }
+                                span{
+                                    margin-top: 0.63rem;
+                                    font-weight: 400;
+                                    font-size: 2.25rem;
+                                    line-height: 3.375rem;
+                                }
+                            }
+                            
+                        }
+                        span{
+                            font-size: 2.75rem;
+                            font-family: 'Raleway';
+                            font-weight: 400;
+                            line-height: 3.375rem;
+                            @include lg-desk-min{
+                                font-size: 2.2rem;
+                                line-height: 2.7rem;
+                            }
+                            @include sm-desk-max{
+                                font-size: 2.25rem;
+                                line-height: 3rem;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
