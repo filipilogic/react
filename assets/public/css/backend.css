@@ -19,7 +19,7 @@
   --b-space-2: 12.5rem;
   --b-space-3: 15rem;
   --theme-transition: .3s all;
-  --site-max-width: 1600px;
+  --site-max-width: 1360px;
 }
 @media (min-width: 797.6px) {
   :root {
@@ -134,6 +134,9 @@ div.margin-xl {
   color: #fff;
   display: inline-flex;
   font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border-radius: 8px;
 }
 .il_btn:first-child {
   background-color: var(--color-1);
@@ -297,7 +300,6 @@ div.margin-xl {
   }
 }
 .il-countdown-item p {
-  font-family: "Raleway";
   font-size: 4.125rem;
   font-weight: 400;
   line-height: 4.625rem;
@@ -362,10 +364,16 @@ div.margin-xl {
   align-items: center;
   padding: 1.5rem 0;
   font-size: 2.75rem;
-  font-family: "Raleway";
+  font-family: "Font Primary";
   font-weight: 400;
   line-height: 3.375rem;
   cursor: pointer;
+}
+@media (min-width: 1659.6px) {
+  .il-countdown-links ul li {
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+  }
 }
 @media (max-width: 1360.5px) {
   .il-countdown-links ul li {
@@ -386,7 +394,7 @@ div.margin-xl {
   text-decoration: none;
   font-size: 2.75rem;
   line-height: 3.375rem;
-  font-family: "Raleway";
+  font-family: "Font Primary";
   font-weight: 400;
 }
 @media (min-width: 1659.6px) {
@@ -442,7 +450,7 @@ div.margin-xl {
 }
 .il-countdown-links ul li.il-countdown-add-to-calendar .add-to-calendar-wrapper span {
   font-size: 2.75rem;
-  font-family: "Raleway";
+  font-family: "Font Primary";
   font-weight: 400;
   line-height: 3.375rem;
 }
@@ -1479,6 +1487,35 @@ div.margin-xl {
   }
 }
 
+.il_section.style-3 {
+  background: url(../../../assets/icons/left-react-bckgrd.png), url(../../../assets/icons/right-react-bckgrd.png);
+  background-position: calc((100% - 1360px) / 2 + 165px) bottom, right top 3rem;
+  background-repeat: no-repeat, no-repeat;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
+}
+.il_section.style-3 .il_section_inner {
+  background: url(../../../assets/icons/next-event.png), #FFFFFF;
+  background-repeat: no-repeat, no-repeat;
+  box-shadow: 10px -3.77px 65.5759px rgba(119, 115, 170, 0.1);
+  border-radius: 29px;
+  padding-left: 4rem;
+}
+.il_section.style-3 .il_section_inner .left {
+  padding-top: 7rem;
+  padding-bottom: 4rem;
+}
+.il_section.style-3 .il_section_inner .left .il_section_title {
+  font-size: 4.4rem;
+  line-height: 1.26;
+  margin-bottom: 2.7rem;
+}
+.il_section.style-3 .il_section_inner .right {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
 .il_tabs .il_tabs_nav ul {
   margin: 0;
   padding: 0;
@@ -1946,7 +1983,7 @@ main {
   font-size: var(--body-size);
 }
 .site-main p, .site-main a, .interface-interface-skeleton__content p, .interface-interface-skeleton__content a {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 @media (max-width: 1199.5px) {
   .site-main p, .site-main a, .interface-interface-skeleton__content p, .interface-interface-skeleton__content a {

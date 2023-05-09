@@ -132,3 +132,49 @@
     }
   }
 }
+
+//style 3
+
+.il_section{
+ 
+
+  &.style-3{
+    background: url( ../../../assets/icons/left-react-bckgrd.png),url( ../../../assets/icons/right-react-bckgrd.png);
+    background-position: calc(((100% - 1360px)/2) + 165px) bottom, right top 3rem;
+    background-repeat:no-repeat, no-repeat;
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+  //  @include sm-desk-max{
+  //     background-position: left bottom, right top 3rem;
+  //  }
+
+    .il_section_inner{
+      background: url( ../../../assets/icons/next-event.png),#FFFFFF;
+      background-repeat:no-repeat, no-repeat;
+      box-shadow: 10px -3.77px 65.5759px rgba(119, 115, 170, 0.1);
+      border-radius: 29px;
+      padding-left: 4rem;
+
+      .left{
+        padding-top: 7rem;
+        padding-bottom: 4rem;
+
+        .il_section_title{
+          font-size: 4.4rem;
+          line-height: 1.26;
+          margin-bottom: 2.7rem;
+        }
+
+      }
+
+      .right{
+        display:flex;
+        flex-direction: row;
+        justify-content: end;
+      }
+
+    }
+
+  }
+
+}

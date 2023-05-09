@@ -75,7 +75,6 @@
             }
         }
         p{
-            font-family: 'Raleway';
             font-size: 4.125rem;
             font-weight: 400;
             line-height: 4.625rem;
@@ -130,9 +129,13 @@
                 align-items: center;
                 padding: 1.5rem 0;
                 font-size: 2.75rem;
-                font-family: 'Raleway';
+                font-family: 'Font Primary';
                 font-weight: 400;
                 line-height: 3.375rem;
+                @include lg-desk-min{
+                    font-size: 2.2rem;
+                    line-height: 2.7rem;
+                }
                 @include sm-desk-max{
                     font-size: 2.57rem;
                     line-height: 3.43rem;
@@ -152,7 +155,7 @@
                     text-decoration: none;
                     font-size: 2.75rem;
                     line-height: 3.375rem;
-                    font-family: 'Raleway';
+                    font-family: 'Font Primary';
                     font-weight: 400;
                     @include lg-desk-min{
                         font-size: 2.2rem;
@@ -205,7 +208,7 @@
                         }
                         span{
                             font-size: 2.75rem;
-                            font-family: 'Raleway';
+                            font-family: 'Font Primary';
                             font-weight: 400;
                             line-height: 3.375rem;
                             @include lg-desk-min{

@@ -6,6 +6,9 @@
     color: #fff;
     display: inline-flex;
     font-size: 2rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    border-radius: 8px;
     &:first-child {
       background-color: var(--color-1);
     }
