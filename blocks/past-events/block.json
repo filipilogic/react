@@ -1,0 +1,15 @@
+{
+    "name": "acf/past-events",
+    "title": "iLogic Past Events block",
+    "description": "A Block for displaying last two posts from events category",
+    "category": "ilogic-category",
+    "icon": "welcome-widgets-menus",
+    "keywords": ["last posts", "last events", "ilogic"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "past-events.php"
+    },
+    "supports": {
+		"align": false
+	}
+}

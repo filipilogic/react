@@ -10,7 +10,7 @@
 :root {
   --title-size-1: 7rem;
   --title-size-2: 5.8rem;
-  --title-size-3: 5rem;
+  --title-size-3: 4.4rem;
   --title-size-4: 3rem;
   --title-size-5: 2.5rem;
   --title-size-6: 2rem;
@@ -134,8 +134,6 @@ div.margin-xl {
   color: #fff;
   display: inline-flex;
   font-size: 2rem;
-  font-family: "Montserrat";
-  font-weight: 700;
   border-radius: 8px;
 }
 .il_btn:first-child {
@@ -149,6 +147,11 @@ div.margin-xl {
 }
 .il_btn:not(:last-child), .il_btn:not(:only-child) {
   margin-right: 1rem;
+}
+
+a.il_btn {
+  font-family: "Montserrat";
+  font-weight: 700;
 }
 
 .il_block_intro.left, .section.left {
@@ -236,6 +239,7 @@ div.margin-xl {
   .il-countdown-wrapper {
     max-width: 100%;
     width: 100%;
+    border-radius: 0;
   }
 }
 @media (min-width: 797.6px) and (max-width: 1199.5px) {
@@ -250,7 +254,7 @@ div.margin-xl {
 }
 @media (max-width: 797.5px) {
   .il-countdown-wrapper {
-    background: linear-gradient(90deg, #EB3C85 -12.9%, #8758EA 7.46%, #0BCBD7 61.77%, #4785F3 102.5%);
+    background: radial-gradient(90% 1552.42% at 51.02% 42.43%, #144A9D 0%, #132051 100%);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1367,6 +1371,15 @@ div.margin-xl {
   fill: var(--color-3);
 }
 
+.il_section.past_events_section .past_events_section_posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.il_section.past_events_section .past_events_section_posts article {
+  flex: 48% 0 0;
+}
+
 .il_section.style-1 {
   padding: 10rem 0;
 }
@@ -1501,6 +1514,12 @@ div.margin-xl {
   border-radius: 29px;
   padding-left: 4rem;
 }
+@media (max-width: 1199.5px) {
+  .il_section.style-3 .il_section_inner {
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+  }
+}
 .il_section.style-3 .il_section_inner .left {
   padding-top: 7rem;
   padding-bottom: 4rem;
@@ -1514,6 +1533,26 @@ div.margin-xl {
   display: flex;
   flex-direction: row;
   justify-content: end;
+}
+@media (max-width: 1199.5px) {
+  .il_section.style-3 .il_section_inner .right {
+    justify-content: start;
+  }
+}
+@media (max-width: 1199.5px) {
+  .il_section.style-3 .il_section_inner .right img {
+    width: 100%;
+    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+}
+@media (max-width: 1199.5px) {
+  .il_section.style-3 .il_section_inner > div {
+    flex-basis: 100%;
+  }
 }
 
 .il_tabs .il_tabs_nav ul {

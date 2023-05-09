@@ -144,9 +144,6 @@
     background-repeat:no-repeat, no-repeat;
     padding-top: 5.6rem;
     padding-bottom: 5.6rem;
-  //  @include sm-desk-max{
-  //     background-position: left bottom, right top 3rem;
-  //  }
 
     .il_section_inner{
       background: url( ../../../assets/icons/next-event.png),#FFFFFF;
@@ -154,6 +151,10 @@
       box-shadow: 10px -3.77px 65.5759px rgba(119, 115, 170, 0.1);
       border-radius: 29px;
       padding-left: 4rem;
+      @include limbo-max {
+        padding-right: 4rem;
+        padding-bottom: 4rem;
+      }
 
       .left{
         padding-top: 7rem;
@@ -171,7 +172,25 @@
         display:flex;
         flex-direction: row;
         justify-content: end;
+        @include limbo-max {
+          justify-content: start;
+        }
+        img{
+          @include limbo-max {
+            width:100%;
+            height: 50vh;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
       }
+
+      @include limbo-max {
+          > div {
+            flex-basis: 100%;
+          }
+      }
+
 
     }
 

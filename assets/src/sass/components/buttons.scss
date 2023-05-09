@@ -6,8 +6,6 @@
     color: #fff;
     display: inline-flex;
     font-size: 2rem;
-    font-family: 'Montserrat';
-    font-weight: 700;
     border-radius: 8px;
     &:first-child {
       background-color: var(--color-1);
@@ -21,4 +19,8 @@
     &:not(:last-child), &:not(:only-child) {
       margin-right: 1rem;
     }
-  }
+}
+a.il_btn{
+  font-family: 'Montserrat';
+  font-weight: 700;
+}

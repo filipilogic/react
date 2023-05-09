@@ -27,6 +27,7 @@
         @include limbo-max{
             max-width: 100%;
             width: 100%;
+            border-radius: 0;
         }
         @include limbo-only{
             padding:7.5rem 5rem;
@@ -36,7 +37,7 @@
    
         }
         @include tab-max{
-            background:  linear-gradient(90deg, #EB3C85 -12.9%, #8758EA 7.46%, #0BCBD7 61.77%, #4785F3 102.5%);
+            background:  radial-gradient(90% 1552.42% at 51.02% 42.43%, #144A9D 0%, #132051 100%);
             background-position: center center;
             background-repeat:no-repeat;
             background-size: cover;
