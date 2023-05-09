@@ -6,11 +6,11 @@ $description = get_field('past_events_description');
     <div class="container">
         <div class="past_events_section_header">
             <?php if($title) :?>
-                <h3><?php echo $title; ?></h3>
+                <h3 class="past_events_title"><?php echo $title; ?></h3>
             <?php endif;
 
             if($description) : ?>
-                <p> <?php echo $description; ?> </p>
+                <p class="past_events_description"> <?php echo $description; ?> </p>
             <?php endif;?>
         </div>
         <div class="past_events_section_posts">
@@ -27,26 +27,27 @@ $description = get_field('past_events_description');
                 
                     while ( $events->have_posts() ) :
                         $events->the_post();
-              
-                        ?>
+                        $event_img = get_field_object('event_image',get_the_ID()); ?>
+
                         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-                        <a href="<?php the_permalink(); ?>">
-                            <?php
-                            if ( has_post_thumbnail() ) :
-                                the_post_thumbnail();
-                            endif;
-                            ?>
-                            <header class="entry-header">
-                                <h1 class="entry-title"><?php the_title(); ?></h1>
-                            </header>
-                            <div class="entry-content">
-                                <?php the_excerpt(); ?>
-                            </div>
+                            <a href="<?php the_permalink(); ?>">
+                                <?php
+                                if ( $event_img) : ?>
+                                    <img src="<?php echo $event_img['value']['url']; ?>" alt="<?php echo $event_img['value']['alt']; ?>">
+                                <?php
+                                endif;
+                                ?>
+                                <header class="entry-header">
+                                    <h3 class="entry-title"><?php the_title(); ?></h3>
+                                </header>
+                                <div class="entry-content">
+                                    <?php the_excerpt(); ?>
+                                </div>
                             </a>
                         </article>
                         <?php
                     endwhile;
-                    wp_reset_postdata();
+                    wp_reset_query();
                 endif;
             ?>
         </div>

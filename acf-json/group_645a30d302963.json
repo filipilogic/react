@@ -4,7 +4,7 @@
     "fields": [
         {
             "key": "field_645a30d304b39",
-            "label": "Event Image",
+            "label": "Home Page Image",
             "name": "event_image",
             "aria-label": "",
             "type": "image",
@@ -17,7 +17,7 @@
                 "id": ""
             },
             "return_format": "array",
-            "library": "all",
+            "library": "uploadedTo",
             "min_width": "",
             "min_height": "",
             "min_size": "",
@@ -46,5 +46,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1683632395
+    "modified": 1683639951
 }
