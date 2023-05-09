@@ -1,0 +1,15 @@
+{
+    "name": "acf/leadership",
+    "title": "iLogic Leadership",
+    "description": "Block displaying Info about Leadership",
+    "category": "ilogic-category",
+    "icon": "images-alt",
+    "keywords": ["leadership", "ilogic"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "leadership.php"
+    },
+    "supports": {
+		"align": false
+	}
+}
