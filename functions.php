@@ -146,6 +146,7 @@ function register_acf_blocks() {
 	register_block_type( __DIR__ . '/blocks/countdown' );
 	register_block_type( __DIR__ . '/blocks/past-events' );
 	register_block_type( __DIR__ . '/blocks/leadership' );
+	register_block_type( __DIR__ . '/blocks/agenda' );
 }
 
 
