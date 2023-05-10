@@ -209,7 +209,8 @@
             },
             "choices": {
                 "style-1": "Style 1",
-                "style-2": "Style 2"
+                "style-2": "Style 2",
+                "style-3": "Style 3"
             },
             "default_value": "",
             "return_format": "value",
@@ -312,5 +313,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1674643868
+    "modified": 1683623152
 }

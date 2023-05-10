@@ -2,9 +2,9 @@
 $style = get_field_object('choose_style');
 $layout = get_field_object('layout');
 $stack = get_field_object('stack');
-
 $margin = get_field_object('margin');
 $padding = get_field_object('padding');
+
 
 $class = 'il_block il_section';
 if ( ! empty( $block['className'] ) ) {

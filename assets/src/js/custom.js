@@ -16,7 +16,6 @@ jQuery(document).ready(function ($) {
 	});
 
 
-
     // Technologies
 /*
     $(".tg_trigger-1").click(function () {
