@@ -521,6 +521,40 @@ a.il_btn {
   display: flex;
   flex-wrap: wrap;
 }
+.il_columns.speakers-style .il_block_intro .intro_title {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+.il_columns.speakers-style .il_block_intro .intro_text p {
+  max-width: 909px;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #57585D;
+}
+.il_columns.speakers-style .il_columns_inner {
+  padding-top: 8rem;
+}
+.il_columns.speakers-style .il_columns_inner .column {
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.il_columns.speakers-style .il_columns_inner .column img {
+  border-radius: 50%;
+  max-width: 230px;
+  width: 100%;
+}
+.il_columns.speakers-style .il_columns_inner .column .intro_title {
+  font-size: 2.8rem;
+  line-height: 1.3;
+  color: var(--color-2);
+  margin-bottom: 1.2rem;
+}
+.il_columns.speakers-style .il_columns_inner .column .il_col_text p {
+  color: #57585D;
+}
 
 .il-countdown {
   display: flex;
