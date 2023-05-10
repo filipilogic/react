@@ -4027,6 +4027,52 @@ a.il_btn {
   fill: var(--color-3);
 }
 
+.leadership-wrapper .leader-card {
+  background: #fff;
+  box-shadow: 10px -3.77px 65.5759px rgba(119, 115, 170, 0.1);
+  border-radius: 20px;
+  padding: 2rem 2rem 4rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.3rem;
+}
+@media (max-width: 797.5px) {
+  .leadership-wrapper .leader-card {
+    flex-direction: column-reverse;
+    padding: 2em;
+  }
+}
+.leadership-wrapper .leader-card-info {
+  flex: 70% 0 0;
+  padding-top: 4rem;
+}
+.leadership-wrapper .leader-card-info .leader-name {
+  max-width: 83%;
+  margin-bottom: 0.4rem;
+  color: var(--color-2);
+}
+.leadership-wrapper .leader-card-info .leader-position {
+  max-width: 83%;
+  font-family: "Font Primary";
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.leadership-wrapper .leader-card-info .leader-description {
+  padding-top: 4rem;
+  max-width: 83%;
+}
+@media (max-width: 797.5px) {
+  .leadership-wrapper .leader-card-info .leader-description {
+    max-width: 100%;
+  }
+}
+.leadership-wrapper .leader-card-image {
+  flex: 30% 0 0;
+}
+.leadership-wrapper .leader-card-image img {
+  width: 100%;
+}
+
 .il_section.past_events_section {
   padding: 8rem 0;
 }

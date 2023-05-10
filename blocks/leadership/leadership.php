@@ -25,7 +25,7 @@ if( have_rows('leader') ): ?>
             </div>
             <?php if( $leader_image_id ) : ?>
                 <div class="leader-card-image">
-                <?php echo wp_get_attachment_image($leader_image_id) ?>
+                <?php echo wp_get_attachment_image($leader_image_id,'full') ?>
                 </div> 
             <?php endif; ?>
         </div>
