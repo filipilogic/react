@@ -60,4 +60,55 @@
 
   }
 
+  &.attend-style{
+    background:url( ../../../assets/icons/attend-back.png),  radial-gradient(97.14% 83.45% at 51.68% 52.34%, #144A9D 0%, #132051 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background-repeat: no-repeat;
+    background-position: bottom left -4rem, center;
+
+    .il_block_intro{
+
+      .intro_title{
+
+      }
+
+    }
+
+    .il_columns_inner{
+      padding-top: 6.5rem;
+      
+      .column{
+        text-align: center;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+
+        @include mob-only{
+          margin-bottom: 8rem;
+        }
+
+        .intro_title {
+          font-size: 4.4rem;
+          line-height: 1.2;
+          margin-bottom: 6px;
+        }
+
+        .il_col_text{
+
+          p{
+            font-family: 'Font Primary';
+            color: #fff;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 1.4;
+            max-width: 320px;
+            margin: 0 auto;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
 }

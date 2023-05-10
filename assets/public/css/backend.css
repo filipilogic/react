@@ -555,6 +555,38 @@ a.il_btn {
 .il_columns.speakers-style .il_columns_inner .column .il_col_text p {
   color: #57585D;
 }
+.il_columns.attend-style {
+  background: url(../../../assets/icons/attend-back.png), radial-gradient(97.14% 83.45% at 51.68% 52.34%, #144A9D 0%, #132051 100%);
+  background-repeat: no-repeat;
+  background-position: bottom left -4rem, center;
+}
+.il_columns.attend-style .il_columns_inner {
+  padding-top: 6.5rem;
+}
+.il_columns.attend-style .il_columns_inner .column {
+  text-align: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+@media (max-width: 479.5px) {
+  .il_columns.attend-style .il_columns_inner .column {
+    margin-bottom: 8rem;
+  }
+}
+.il_columns.attend-style .il_columns_inner .column .intro_title {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+.il_columns.attend-style .il_columns_inner .column .il_col_text p {
+  font-family: "Font Primary";
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.4;
+  max-width: 320px;
+  margin: 0 auto;
+}
 
 .il-countdown {
   display: flex;
