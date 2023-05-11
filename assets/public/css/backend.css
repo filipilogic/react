@@ -1381,6 +1381,33 @@ a.il_btn {
   justify-content: center;
 }
 
+.il_info_block {
+  background: url(../../../assets/icons/info-back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: var(--b-space-2);
+  padding-bottom: var(--b-space-2);
+}
+.il_info_block .il_block_images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 6rem;
+}
+.il_info_block .il_block_images img:first-of-type {
+  margin-right: 5rem;
+}
+.il_info_block .il_block_intro .intro_subtitle {
+  margin-bottom: 3rem;
+  font-size: 3.6rem;
+  font-weight: 600;
+}
+.il_info_block .il_block_intro .intro_text {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .il_inner_hero-1 {
   min-height: 40rem;
   position: relative;
