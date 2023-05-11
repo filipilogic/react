@@ -521,6 +521,11 @@ a.il_btn {
   display: flex;
   flex-wrap: wrap;
 }
+.il_columns.speakers-style {
+  background: url(../../../assets/icons/speakers-back.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+}
 .il_columns.speakers-style .il_block_intro .intro_title {
   text-transform: uppercase;
   margin-bottom: 2rem;
