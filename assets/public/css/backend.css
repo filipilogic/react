@@ -1374,6 +1374,15 @@ a.il_btn {
     font-size: 8rem;
   }
 }
+.il_hero .intro_subtitle {
+  margin-bottom: 1rem;
+  font-size: 9rem;
+}
+@media (max-width: 1199.5px) {
+  .il_hero .intro_subtitle {
+    font-size: 8rem;
+  }
+}
 .il_hero .il_hero_subtitle {
   font-size: 9rem;
   color: #fff;

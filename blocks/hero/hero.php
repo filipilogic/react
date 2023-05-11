@@ -26,7 +26,7 @@ if ( ! empty( $padding) ) {
 <?php get_template_part('components/background'); ?>
 	<div class="container il_hero_inner">
 	<?php get_template_part('components/title'); ?>
-	<h2 class="il_hero_subtitle"><?php echo $subtitle ?></h2>
+	
 	<div><?php echo $content ?></div>
 	<?php get_template_part('components/buttons'); ?>
 	</div>

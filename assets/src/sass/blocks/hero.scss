@@ -29,6 +29,13 @@
       font-size: 8rem;
     }
   }
+  .intro_subtitle {
+    margin-bottom: 1rem;
+    font-size: 9rem;
+    @include limbo-max {
+      font-size: 8rem;
+    }
+  }
   .il_hero_subtitle {
     font-size: 9rem;
     color: #fff;
