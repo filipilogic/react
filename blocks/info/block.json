@@ -1,0 +1,16 @@
+{
+    "name": "acf/info",
+    "title": "iLogic Info",
+    "description": "Info block. Text & Images",
+    "category": "ilogic-category",
+    "icon": "clipboard",
+    "keywords": ["info", "ilogic"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "info.php"
+    },
+    "supports": {
+		"align": false,
+		"anchor": true
+	}
+}
