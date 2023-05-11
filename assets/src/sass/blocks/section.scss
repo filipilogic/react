@@ -217,7 +217,13 @@
     }
   }
   @include limbo-max {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+    .left {
+      margin-bottom: 3rem;
+    }
     .il_block_bg img {
+      width: 27%;
       height: auto;
     }
     .il_section_title {

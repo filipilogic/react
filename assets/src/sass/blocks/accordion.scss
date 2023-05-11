@@ -1,34 +1,82 @@
+.il_accordion {
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  @include tab-max {
+    padding-top: 7rem;
+    padding-bottom: 24rem;
+  }
+  background: radial-gradient(76.52% 65.74% at 50.63% 52.3%, #144A9D 0%, #132051 100%);
+  .intro_title {
+    font-size: var(--title-size-3);
+    font-weight: 600;
+    margin-bottom: 5rem;
+  }
+  .il_block_bg img {
+    @include limbo-min {
+      width: auto;
+      right: 0;
+      height: 90%;
+      max-width: 38%;
+      object-position: left;
+    }
+    @include tab-max {
+      height: 21rem;
+      width: auto;
+      bottom: 0;
+      right: 0;
+    }
+  }
+}
+
 .il_accordion-item {
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  background: linear-gradient(92.18deg, #15BDA0 -38.27%, #1732C0 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem 3rem;
   margin-bottom: 2rem;
-  border-radius: 1rem;
+  border-radius: 8px;
+  color: #fff;
+  @include tab-max {
+    padding: 3rem;
+  }
+  @include limbo-min {
+    max-width: 60%;
+  }
   &:not(.open) {
     .il_accordion-body {
       display: none;
     }
   }
   .il_accordion-header {
-    font-size: var(--title-size-4);
-    color: var(--color-2);
+    font-size: 20px;
+    @include limbo-max {
+      font-size: 16px;
+    }
     cursor: pointer;
-    padding: .5rem 3rem;
     position: relative;
     display: flex;
     align-items: center;
+    padding-right: 8rem;
     &::after {
       content: "";
-      background-image: url('../../icons/chevron-down.svg');
+      background-image: url('../../icons/small-arrow-down.png');
       background-repeat: no-repeat;
       background-size: contain;
-      width: 3rem;
-      height: 3rem;
+      width: 15px;
+      height: 8px;
       position: absolute;
       right: 3rem;
       transition: var(--theme-transition);
     }
   }
   .il_accordion-body {
-    padding: 1rem 3rem 2rem;
+    padding-top: 1rem;
+    padding-right: 8rem;
+    p {
+      font-size: 18px;
+      @include limbo-max {
+        font-size: 14px;
+      }
+    }
   }
   &.open {
     .il_accordion-header {
