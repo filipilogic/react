@@ -5,13 +5,13 @@
     text-decoration: none;
     color: #fff;
     display: inline-flex;
-    font-size: 2rem;
     border-radius: 8px;
     &:first-child {
       background-color: var(--color-1);
+      border: 2px solid var(--color-1);
     }
     &:nth-child(2) {
-      background-color: var(--color-2);
+      border: 2px solid #fff;
     }
     &:nth-child(3) {
       background-color: var(--color-3);
@@ -21,6 +21,7 @@
     }
 }
 a.il_btn{
-  font-family: 'Montserrat';
   font-weight: 700;
+  font-size: 18px;
+  font-family: "Font Primary";
 }
