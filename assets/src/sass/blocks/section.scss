@@ -199,3 +199,29 @@
   }
 
 }
+
+.il_section.hp-what-is-react {
+  .il_section_title {
+    color: var(--color-1);
+    margin-bottom: 25px;
+  }
+  @include desk-min {
+    .il_block_bg img {
+      width: fit-content;
+    }
+    .il_section_inner {
+      align-items: center;
+    }
+    .il_section_title {
+      font-size: var(--title-size-3);
+    }
+  }
+  @include limbo-max {
+    .il_block_bg img {
+      height: auto;
+    }
+    .il_section_title {
+      font-size: var(--title-size-2);
+    }
+  }
+}
