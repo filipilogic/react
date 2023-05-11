@@ -21,6 +21,13 @@ jQuery(document).ready(function ($) {
     $(this).parent().toggleClass('sub-menu-open');
     $(this).siblings(".sub-menu").slideToggle();
   });
+  $("#primary-menu li").click(function () {
+    var windowsize = $(window).width();
+    if (windowsize < 1200) {
+      $("#primary-menu").fadeToggle();
+      $(".menu-toggle").toggleClass('menu-open');
+    }
+  });
 
   // Technologies
   /*
@@ -45,6 +52,17 @@ jQuery(document).ready(function ($) {
           $(".tg_modal.si_open:not(.tg_modal-3)").slideToggle().removeClass('si_open');
       }); */
 });
+
+window.onscroll = function () {
+  scrollHeader();
+};
+function scrollHeader() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    document.getElementById("masthead").className = "header-main sticky";
+  } else {
+    document.getElementById("masthead").className = "header-main";
+  }
+}
 
 /***/ }),
 
