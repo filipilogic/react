@@ -1436,22 +1436,13 @@ a.il_btn {
   }
 }
 .il_hero .intro_subtitle {
-  margin-bottom: 1rem;
   font-size: 9rem;
-}
-@media (max-width: 1199.5px) {
-  .il_hero .intro_subtitle {
-    font-size: 8rem;
-  }
-}
-.il_hero .il_hero_subtitle {
-  font-size: 9rem;
-  color: #fff;
+  margin-bottom: 10px;
   font-weight: 400;
   margin-bottom: 10px;
 }
 @media (max-width: 1199.5px) {
-  .il_hero .il_hero_subtitle {
+  .il_hero .intro_subtitle {
     font-size: 6rem;
   }
 }
