@@ -2,9 +2,37 @@
 .header-main {
   z-index: 9;
 }
+.sticky {
+  background: #fff;
+  transition: var(--theme-transition);
+  .container.header-main-inner {
+    padding: 1.5rem 0;
+    transition: var(--theme-transition);
+  }
+  &.header-main .header-main-inner #primary-menu a {
+    color: #000;
+  }
+}
 .sub-menu-trigger {
   svg {
     stroke: var(--color-1);
+  }
+}
+@include limbo-max {
+  #primary-menu .nav-register-link {
+    width: fit-content;
+    a {
+      font-family: "Font Secondary";
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 1px solid var(--color-2);
+      border-radius: 2rem;
+      color: var(--color-2);
+      opacity: 1;
+      padding: 1.5rem 3rem;
+      margin-top: 4rem;
+    }
   }
 }
 @include desk-min {
@@ -24,8 +52,10 @@
   }
   .stick-main .header-version-1 {
     .header-main {
-      position: sticky;
+      position: fixed;
       top: 0;
+      width: 100%;
+      transition: var(--theme-transition);
     }
   }
   .header-version-1 {
@@ -65,14 +95,14 @@
       }
     }
     .header-main {
-      background-color: #fff;
       &-inner {
         display: flex;
         width: 90%;
-        max-width: 1600px;
+        max-width: 1360px;
         margin: auto;
         align-items: center;
-        padding: 1.5rem 0;
+        padding: 3rem 0 1.5rem 0;
+        transition: var(--theme-transition);
         #primary-menu {
           justify-content: flex-end;
           flex-wrap: wrap;
@@ -112,6 +142,9 @@
                 font-size: 17px;
               }
           }
+          &.nav-register-link {
+            display: none;
+          }
           }
           > li:hover {
             .sub-menu-trigger{
@@ -126,8 +159,10 @@
           a {
             text-transform: uppercase;
             margin-right: 2rem;
-            color: var(--color-text);
-            font-size: 16px;
+            color: #fff;
+            font-size: 14px;
+            font-family: 'Font Primary';
+            font-weight: 600;
           }
         }
         .logo-wrap {
@@ -149,8 +184,10 @@
           color: #fff;
           text-decoration: none;
           text-transform: uppercase;
-          background-color: var(--color-1);
+          background-color: var(--color-2);
           z-index: 99999;
+          font-size: 14px;
+          padding: 1rem 2.2rem;
         }
       }
     }

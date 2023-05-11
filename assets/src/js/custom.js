@@ -16,6 +16,15 @@ jQuery(document).ready(function ($) {
 	});
 
 
+    $( "#primary-menu li" ).click(function() {
+        var windowsize = $(window).width();
+        if (windowsize < 1200) {
+            $("#primary-menu").fadeToggle();
+            $(".menu-toggle").toggleClass('menu-open')
+        }
+    })
+
+
     // Technologies
 /*
     $(".tg_trigger-1").click(function () {
@@ -44,3 +53,15 @@ jQuery(document).ready(function ($) {
 
 
 });
+
+window.onscroll = function() {
+    scrollHeader()
+};
+
+function scrollHeader() {
+  if ( document.body.scrollTop > 100 || document.documentElement.scrollTop > 100 ) {
+    document.getElementById("masthead").className = "header-main sticky";
+  } else {
+    document.getElementById("masthead").className = "header-main";
+  }
+}
