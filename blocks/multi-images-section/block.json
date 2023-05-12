@@ -1,0 +1,15 @@
+{
+    "name": "acf/multi-images-section",
+    "title": "iLogic Multi Images Section",
+    "description": "A Section Block containing the Info Box and the Image",
+    "category": "ilogic-category",
+    "icon": "welcome-widgets-menus",
+    "keywords": ["multi images section", "ilogic"],
+    "acf": {
+        "mode": "auto",
+        "renderTemplate": "multi-images-section.php"
+    },
+    "supports": {
+		"align": false
+	}
+}

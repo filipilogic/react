@@ -149,6 +149,7 @@ function register_acf_blocks() {
 	register_block_type( __DIR__ . '/blocks/agenda' );
   	register_block_type( __DIR__ . '/blocks/video-popup-section' );
 	register_block_type( __DIR__ . '/blocks/info' );
+	register_block_type( __DIR__ . '/blocks/multi-images-section' );
 }
 
 
