@@ -200,6 +200,23 @@
 
 }
 
+.il_section.style-4 {
+  background: radial-gradient(123.87% 106.41% at 51.02% 42.43%, #144A9D 0%, #132051 100%);
+  z-index: -1;
+  min-height: 17.3rem;
+  .il_block_bg {
+    width: var(--site-width);
+    max-width: var(--site-max-width);
+    margin: auto;
+    img {
+      width: 42.3rem;
+      left: -10%;
+      bottom: 0;
+      height: auto;
+    }
+  }
+}
+
 .il_section.hp-what-is-react {
   .il_section_title {
     color: var(--color-1);
