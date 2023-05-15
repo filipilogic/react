@@ -1,10 +1,14 @@
 // File location: assets\src\sass\styles
 .header-main {
   z-index: 9;
+  transition: var(--theme-transition);
 }
 .sticky {
   background: #fff;
-  transition: var(--theme-transition);
+  .logo-wrap img {
+    content: url('../../../assets/icons/sheba-logo-dark.png');
+    transition: var(--theme-transition);
+  }
   .container.header-main-inner {
     padding: 1.5rem 0;
     transition: var(--theme-transition);
@@ -55,7 +59,6 @@
       position: fixed;
       top: 0;
       width: 100%;
-      transition: var(--theme-transition);
     }
   }
   .header-version-1 {

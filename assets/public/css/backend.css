@@ -650,13 +650,13 @@ a.il_btn {
   }
 }
 .il_columns.attend-style .il_block_bg img {
-  width: 72.5rem;
+  width: 59.3rem;
   height: auto;
   bottom: 0;
 }
 @media (max-width: 1199.5px) {
   .il_columns.attend-style .il_block_bg img {
-    width: 41.5rem;
+    width: 36rem;
   }
 }
 .il_columns.attend-style .il_columns_inner {
