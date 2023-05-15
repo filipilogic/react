@@ -72,5 +72,24 @@ if ( ! empty( $stack ) ) {
 
 	</div>
 	
+
+<?php if( have_rows('info_box_2') ): ?>
+<?php while( have_rows('info_box_2') ): the_row();
+	$before_title = get_sub_field('before_title');
+	$title = get_sub_field('title');
+	$text = get_sub_field('text');
+	$tag = get_sub_field('heading_tag');
+	$title_color = get_sub_field('title_color');
+	?>
+
+	<div class="info_box_2">
+		<div class="il_section_before_title"><?php echo $before_title ?></div>
+		<<?php echo esc_html($tag); ?> class="il_section_title" style="color: <?php echo $title_color; ?>;"><?php echo $title; ?></<?php echo esc_html($tag); ?>>
+		<div class="il_section_text"><?php echo $text ?></div>
+		<?php get_template_part('components/buttons'); ?>
+	</div>
+
+<?php endwhile; ?>
+<?php endif; ?>
 </div>
 </div>

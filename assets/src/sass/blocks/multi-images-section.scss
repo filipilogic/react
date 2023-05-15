@@ -1,5 +1,23 @@
 .il_mi_section.style-1 {
+  margin-top: -6rem;
+  z-index: 1;
+  padding-top: 18rem;
+  padding-bottom: 6rem;
   background: radial-gradient(44.49% 38.22% at 51.02% 42.43%, #144A9D 0%, #132051 100%);
+  overflow: hidden;
+  .il_block_bg {
+    width: var(--site-width);
+    max-width: var(--site-max-width);
+    margin: auto;
+    mix-blend-mode: luminosity;
+    @include limbo-max {
+      display: none;
+    }
+    img {
+      width: auto;
+      left: -5rem;
+    }
+  }
   .il_section_before_title {
     font-family: 'Font Secondary';
     color: #9F9FA2;
