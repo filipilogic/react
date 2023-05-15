@@ -1,20 +1,20 @@
 .il_section{
 
-    &.past_events_section{
+    &.il_past_events_section{
         padding: 8rem 0;
-        .past_events_section_header{
+        .il_past_events_section_header{
             padding-bottom: 5rem;
         }
-        .past_events_title{
+        .il_past_events_title{
             color:var(--color-2);
             text-transform: uppercase;
             margin-bottom: 1.1rem;
         }
-        .past_events_description{
+        .il_past_events_description{
             margin-bottom: 0;
         }
 
-        .past_events_section_posts{
+        .il_past_events_section_posts{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-between;
@@ -45,6 +45,8 @@
                         margin-bottom: .5rem;
                         padding-left: 3.2rem;
                         padding-top: 2.4rem;
+                        font-size: 3.6rem;   
+                        line-height: 1.2;  
                     }
                     .entry-content{
                         color:#6A6A6A;

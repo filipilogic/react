@@ -2,18 +2,18 @@
 $title = get_field('past_events_title');
 $description = get_field('past_events_description');
 ?>
-<div class="il_block il_section past_events_section">
+<div class="il_block il_section il_past_events_section">
     <div class="container">
-        <div class="past_events_section_header">
+        <div class="il_past_events_section_header">
             <?php if($title) :?>
-                <h3 class="past_events_title"><?php echo $title; ?></h3>
+                <h3 class="il_past_events_title"><?php echo $title; ?></h3>
             <?php endif;
 
             if($description) : ?>
-                <p class="past_events_description"> <?php echo $description; ?> </p>
+                <p class="il_past_events_description"> <?php echo $description; ?> </p>
             <?php endif;?>
         </div>
-        <div class="past_events_section_posts">
+        <div class="il_past_events_section_posts">
             <?php 
                 $args = array(
                     'post_type' => 'post',
