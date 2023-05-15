@@ -850,10 +850,14 @@ figure img {
 }
 .header-main {
   z-index: 9;
+  transition: var(--theme-transition);
 }
 
 .sticky {
   background: #fff;
+}
+.sticky .logo-wrap img {
+  content: url("../../../assets/icons/sheba-logo-dark.png");
   transition: var(--theme-transition);
 }
 .sticky .container.header-main-inner, .sticky .header-main-inner.il-countdown-wrapper {
@@ -901,7 +905,6 @@ figure img {
     position: fixed;
     top: 0;
     width: 100%;
-    transition: var(--theme-transition);
   }
   .header-version-1 .header-top {
     display: flex;
@@ -3465,13 +3468,13 @@ a.il_btn {
   }
 }
 .il_columns.attend-style .il_block_bg img {
-  width: 72.5rem;
+  width: 59.3rem;
   height: auto;
   bottom: 0;
 }
 @media (max-width: 1199.5px) {
   .il_columns.attend-style .il_block_bg img {
-    width: 41.5rem;
+    width: 36rem;
   }
 }
 .il_columns.attend-style .il_columns_inner {
