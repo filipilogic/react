@@ -27,7 +27,8 @@ $description = get_field('past_events_description');
                 
                     while ( $events->have_posts() ) :
                         $events->the_post();
-                        $event_img = get_field_object('event_image',get_the_ID()); ?>
+                        $event_img = get_field_object('event_image',get_the_ID()); 
+                        $event_excerpt = get_field_object('event_excerpt',get_the_ID()); ?>
 
                         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                             <a href="<?php the_permalink(); ?>">
@@ -41,7 +42,7 @@ $description = get_field('past_events_description');
                                     <h3 class="entry-title"><?php the_title(); ?></h3>
                                 </header>
                                 <div class="entry-content">
-                                    <?php the_excerpt(); ?>
+                                   <p><?php echo  $event_excerpt['value'];?></p> 
                                 </div>
                             </a>
                         </article>

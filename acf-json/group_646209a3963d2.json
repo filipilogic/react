@@ -1,0 +1,45 @@
+{
+    "key": "group_646209a3963d2",
+    "title": "Post - Event (copy)",
+    "fields": [
+        {
+            "key": "field_646209a3998e6",
+            "label": "Home Page Excerpt",
+            "name": "event_excerpt",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "rows": 4,
+            "placeholder": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_taxonomy",
+                "operator": "==",
+                "value": "category:events"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1684146889
+}
