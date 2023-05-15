@@ -6,10 +6,17 @@ get_header();
 <?php
 	$title = get_field('inner_hero_title');
 	$title_color = get_field('title_color');
+	$our_title = get_the_title( get_option('page_for_posts', true) );
 ?>
 	<main id="primary" class="site-main block_space_1_2">
-		<div class="il_blog_hero">
-		
+		<div class="il_archive_blog_hero">
+			<div class="container">
+				<div class="il_archive_blog_hero_titile">
+					<h1><?php echo $our_title; ?></h1>
+					<img src="<?php echo get_template_directory_uri().'/assets/icons/archive-back.png'; ?>" alt="">
+				</div>
+				
+			</div>	
 		</div>
 		<div class="container">
 		<?php
@@ -27,7 +34,7 @@ get_header();
 						<div class="il_bp_left">
 						<div class="il_bp_title"><h2 class="tg_title_1 tg_dark"><?php the_title(); ?><?php ?></h2></div>
 						
-						<span class="meta"><?php  echo get_the_author_meta( 'nickname').' • '.get_the_date('d M Y'); ?></span>
+						<span class="il_bp_meta"><?php  echo get_the_author_meta( 'nickname').' • '.get_the_date('d M Y'); ?></span>
 
 						<div class="il_bp_text">
 						<?php if (get_the_excerpt()) {
@@ -39,10 +46,10 @@ get_header();
 						</div>
 						<?php
 							if(count($post_categories)){ ?>
-								<div class="post_category_wrapper">
+								<div class="il_bp_post_category_wrapper">
 								<?php
 									foreach($post_categories as $post_category){?>
-										<span class="post_category"><?php echo $post_category->name; ?></span>
+										<span class="il_bp_post_category"><?php echo $post_category->name; ?></span>
 							  <?php } ?>
 								</div>
 							<?php
