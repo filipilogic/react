@@ -2951,6 +2951,9 @@ a.il_btn {
   font-weight: 600;
   margin-bottom: 5rem;
 }
+.il_accordion .il_block_bg {
+  mix-blend-mode: multiply;
+}
 @media (min-width: 797.6px) {
   .il_accordion .il_block_bg img {
     width: auto;
@@ -4720,7 +4723,27 @@ a.il_btn {
 }
 
 .il_mi_section.style-1 {
+  margin-top: -6rem;
+  z-index: 1;
+  padding-top: 18rem;
+  padding-bottom: 6rem;
   background: radial-gradient(44.49% 38.22% at 51.02% 42.43%, #144A9D 0%, #132051 100%);
+  overflow: hidden;
+}
+.il_mi_section.style-1 .il_block_bg {
+  width: var(--site-width);
+  max-width: var(--site-max-width);
+  margin: auto;
+  mix-blend-mode: luminosity;
+}
+@media (max-width: 1199.5px) {
+  .il_mi_section.style-1 .il_block_bg {
+    display: none;
+  }
+}
+.il_mi_section.style-1 .il_block_bg img {
+  width: auto;
+  left: -5rem;
 }
 .il_mi_section.style-1 .il_section_before_title {
   font-family: "Font Secondary";
