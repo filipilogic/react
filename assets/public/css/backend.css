@@ -2760,6 +2760,15 @@ a.il_btn {
   line-height: 1.26;
   margin-bottom: 2.7rem;
 }
+.il_section.style-3 .il_section_inner .left .il_btn {
+  margin-top: 1rem;
+  padding: 1.4rem 2.5rem;
+  display: inline-flex;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  border: none;
+}
 .il_section.style-3 .il_section_inner .right {
   display: flex;
   flex-direction: row;
@@ -2769,6 +2778,12 @@ a.il_btn {
   .il_section.style-3 .il_section_inner .right {
     justify-content: start;
   }
+}
+.il_section.style-3 .il_section_inner .right img {
+  height: 57vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 0px 29px 29px 0px;
 }
 @media (max-width: 1199.5px) {
   .il_section.style-3 .il_section_inner .right img {
