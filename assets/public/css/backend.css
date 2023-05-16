@@ -2025,6 +2025,9 @@ a.il_btn {
   fill: var(--color-3);
 }
 
+.il_leadership-block {
+  z-index: 3;
+}
 .il_leadership-block .container:nth-child(1), .il_leadership-block .il-countdown-wrapper:nth-child(1) {
   margin-top: -4.5rem;
   position: relative;
@@ -2748,7 +2751,7 @@ a.il_btn {
 
 .il_section.style-4 {
   background: radial-gradient(123.87% 106.41% at 51.02% 42.43%, #144A9D 0%, #132051 100%);
-  z-index: -1;
+  z-index: 2;
   min-height: 17.3rem;
 }
 .il_section.style-4 .il_block_bg {
