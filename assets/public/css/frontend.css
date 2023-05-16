@@ -5788,10 +5788,9 @@ a.il_btn {
   }
 }
 .il_section.style-3 .il_section_inner .right img {
-  height: 57vh;
+  height: 57rem;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 0px 29px 29px 0px;
 }
 @media (max-width: 1199.5px) {
   .il_section.style-3 .il_section_inner .right img {
@@ -5801,6 +5800,11 @@ a.il_btn {
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
+  }
+}
+@media (min-width: 1199.6px) {
+  .il_section.style-3 .il_section_inner .right img {
+    border-radius: 0px 29px 29px 0px;
   }
 }
 @media (max-width: 1199.5px) {
