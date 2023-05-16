@@ -162,6 +162,9 @@
                 line-height: 1.3;
                 margin-bottom: 2.4rem;
                 font-weight: 600;
+                @include limbo-max {
+                    font-size: 18px;
+                }
             }
 
             .intro_text{
@@ -170,6 +173,9 @@
                     color:#fff;
                     max-width: 900px;
                     margin: 0 auto;
+                    @include limbo-max {
+                        font-size: 15px;
+                    }
                 }
             }
 
@@ -302,6 +308,9 @@
                             line-height: 1.4;
                             font-weight: 700;
                             margin-bottom: 0.7rem;
+                            @include mob-only {
+                                margin-top: 2rem;
+                            }
                         }
     
                         &_title{
@@ -318,6 +327,9 @@
                                 font-size: 18px;
                                 font-size: 26px;
                                 margin-bottom: 2.5rem;
+                                @include tab-max {
+                                    margin-top: 3rem;
+                                }
                                 @include limbo-max {
                                     font-size: 15px;
                                     line-height: 22.5px;
@@ -337,6 +349,9 @@
                         &_position{
                             font-size: 16px;
                             line-height: 1.2;
+                            @include tab-max {
+                                margin-top: 8px;
+                            }
                             @include limbo-max {
                                 font-size: 15px;
                                 line-height: 20px;
