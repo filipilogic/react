@@ -2108,6 +2108,7 @@ a.il_btn {
 @media (max-width: 1199.5px) {
   .il_leadership-block .il_leader-card-info .il_leader-name {
     font-size: 4.4rem;
+    margin-bottom: 1.5rem;
   }
 }
 .il_leadership-block .il_leader-card-info .il_leader-position {
