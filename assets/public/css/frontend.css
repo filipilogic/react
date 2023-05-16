@@ -3276,10 +3276,13 @@ a.il_btn {
 }
 
 .il_agenda {
-  margin-top: 5rem;
-  margin-bottom: -4rem;
-  z-index: 3;
+  z-index: 0;
   /* Second style - React style */
+}
+@media (min-width: 1199.6px) {
+  .il_agenda {
+    margin-top: -5rem;
+  }
 }
 .il_agenda .container, .il_agenda .il-countdown-wrapper {
   background: #fff;
@@ -3432,6 +3435,11 @@ a.il_btn {
   padding: 11rem 0;
   margin-bottom: 0;
 }
+@media (max-width: 1199.5px) {
+  .il_agenda.agenda_style_2 {
+    padding: 8rem 0 11rem 0;
+  }
+}
 .il_agenda.agenda_style_2 .container, .il_agenda.agenda_style_2 .il-countdown-wrapper {
   background: transparent;
 }
@@ -3448,6 +3456,7 @@ a.il_btn {
   font-weight: 600;
 }
 .il_agenda.agenda_style_2 .il_block_intro .intro_text p {
+  font-size: 18px;
   color: #fff;
   max-width: 900px;
   margin: 0 auto;
@@ -3563,7 +3572,7 @@ a.il_btn {
 }
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_time {
   font-family: "Font Primary";
-  font-size: 2.4rem;
+  font-size: 24px;
   line-height: 1.4;
   font-weight: 700;
   margin-bottom: 0.7rem;
@@ -3571,23 +3580,41 @@ a.il_btn {
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_title {
   color: var(--color-2);
   font-family: "Font Primary";
-  font-size: 2.4rem;
+  font-size: 24px;
   line-height: 1.4;
   font-weight: 700;
   margin-bottom: 0.7rem;
 }
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_content p {
-  font-size: 1.8rem;
-  line-height: 2.6rem;
+  font-size: 18px;
+  font-size: 26px;
   margin-bottom: 2.5rem;
 }
+@media (max-width: 1199.5px) {
+  .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_content p {
+    font-size: 15px;
+    line-height: 22.5px;
+  }
+}
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_name {
-  font-size: 1.6rem;
-  line-height: 2.2rem;
+  font-size: 16px;
+  line-height: 22px;
+}
+@media (max-width: 1199.5px) {
+  .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_name {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_position {
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 1.2;
+}
+@media (max-width: 1199.5px) {
+  .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_position {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
 .il_columns .il_columns_inner {
