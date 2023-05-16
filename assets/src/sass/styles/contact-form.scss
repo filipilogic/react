@@ -1,0 +1,97 @@
+.il_columns.cf7-section {form {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            width: 100%;
+            @include tab-max {
+                margin-bottom: 5rem;
+            }
+            @include limbo-min {
+                width: 32%;
+                margin-bottom: 4.7rem;
+            }
+        }
+        P:not(:nth-child(3n+1)) {
+            @include limbo-min {
+                margin-right: 2%;
+            }
+        }
+        .submit-button {
+            @include tab-max {
+                margin-top: 1.5rem;
+            }
+            @include limbo-min {
+                width: 100%;
+                margin-bottom: 0;
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input:not(.wpcf7-submit), select, textarea {
+            width: 100%;
+            border: 0px;
+            padding: 1.05rem 2rem;
+            border: 0;
+            background: #F0F0F0;
+            box-shadow: 13px 16px 34px rgba(12, 11, 65, 0.03);
+            border-radius: 12px;
+        }
+        input:not(.wpcf7-submit):focus-visible, select:focus-visible, textarea:focus-visible {
+            outline: none;
+        }
+        input:not(.wpcf7-submit), select, textarea, input:not(.wpcf7-submit)::placeholder, select::placeholder, textarea::placeholder {
+            font-size: 1.8rem;
+            color: #000;
+            font-weight: 400;
+            @include limbo-max {
+                font-size: 16px;
+            }
+            @include mob-only {
+                font-size: 15px;
+            }
+        }
+        input.wpcf7-submit {
+            @include tab-max {
+                width: 60%;
+            }
+            @include limbo-min {
+                width: 32%;
+            }
+            background: var(--color-1);
+            border: 0px;
+            color: #fff;
+            padding: 1.7rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: var(--theme-transition);
+            border-radius: 8px;
+            @include limbo-max {
+                font-size: 16px;
+            }
+            @include mob-only {
+                font-size: 15px;
+            }
+        }
+        input.wpcf7-submit:hover {
+            background: var(--color-2);
+        }
+        select {
+            appearance: none;
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAANCAYAAABCZ/VdAAAABHNCSVQICAgIfAhkiAAAAJ9JREFUOE+tlI0NQDAUhNsNbMIGVmEEI9iESTABoxjBnbRJQ39e1UuOpJHva+RarZQ6kB3pkT+mAmRBNo3HirTI9IPAghuwRsK5QEFdKHDBM1gd4ZxSwQtMqIWXCLzgJ/yLIAj2wXMEUXAILhEkwTF4TCACp+A+wYBFHhD2+K6baZv35bYl9J1b09PUNgmW7NwKXYEInAO3Ev4O3kWiuQAP/C0e18BfBAAAAABJRU5ErkJggg==);
+            background-size: 2.3rem;
+            background-position: 95%;
+            background-repeat: no-repeat;
+        }
+        option {
+            padding: 0;
+        }
+        .wpcf7-not-valid-tip {
+            font-size: 14px;
+            margin-top: 1rem;
+        }
+        .wpcf7-spinner {
+            display: none;
+        }
+      }
+  }
