@@ -13,6 +13,7 @@ jQuery(document).ready(function ($) {
   $(".menu-toggle").click(function () {
     $("#primary-menu").fadeToggle();
     $(this).toggleClass('menu-open');
+    $('#masthead').toggleClass('sticky');
   });
   // Sub Menu Trigger
 

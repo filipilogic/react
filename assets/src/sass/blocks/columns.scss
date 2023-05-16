@@ -194,6 +194,7 @@
       }
     }
     .container {
+      position: relative;
       background: url('/wp-content/uploads/2023/05/REACT-ASSETS-3-3-1.png'), #fff;
       background-repeat: no-repeat;
       background-position: bottom 4% right;
@@ -204,6 +205,23 @@
       }
       @include desk-min {
         margin-top: -4.5rem;
+      }
+      &:after {
+        content: '';
+        background: url("../../../assets/icons/leaderhip_community_bg_after.png");
+        background-size: cover;
+        position: absolute;
+        width: 39.3rem;
+        height: 32.5rem;
+        top: -8rem;
+        right: -11rem;
+        z-index: -1;
+        @include tab-max {
+          top: -13rem;
+        }
+        @include md-desk-max {
+          right: -5%;
+        }
       }
 
     }
