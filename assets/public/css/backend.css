@@ -709,6 +709,32 @@ a.il_btn {
     z-index: 1;
   }
 }
+.il_columns.cf7-section {
+  padding-top: 11.5rem;
+  padding-bottom: 11.5rem;
+}
+.il_columns.cf7-section .container, .il_columns.cf7-section .il-countdown-wrapper {
+  background: url("/wp-content/uploads/2023/05/REACT-ASSETS-3-2-1.png"), #fff;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 33rem 24rem, cover;
+  padding: 6.6rem 5.6rem;
+  border-radius: 20px;
+}
+@media (max-width: 797.5px) {
+  .il_columns.cf7-section .container, .il_columns.cf7-section .il-countdown-wrapper {
+    background-size: 30rem 21rem, cover;
+  }
+}
+.il_columns.cf7-section .container .intro_title, .il_columns.cf7-section .il-countdown-wrapper .intro_title {
+  font-size: 5rem;
+  margin-bottom: 5.5rem;
+}
+@media (min-width: 1199.6px) {
+  .il_columns.cf7-section .container .intro_title, .il_columns.cf7-section .il-countdown-wrapper .intro_title {
+    font-size: 4.4rem;
+  }
+}
 
 .il-countdown {
   display: flex;
