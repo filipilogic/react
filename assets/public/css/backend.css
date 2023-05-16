@@ -735,6 +735,44 @@ a.il_btn {
     font-size: 4.4rem;
   }
 }
+.il_columns.cf7-section.cf7-sec-page {
+  padding-top: 0;
+}
+@media (max-width: 797.5px) {
+  .il_columns.cf7-section.cf7-sec-page {
+    padding: 8rem 0;
+  }
+  .il_columns.cf7-section.cf7-sec-page .intro_text > p {
+    margin-bottom: 6.5rem;
+  }
+}
+@media (min-width: 797.6px) {
+  .il_columns.cf7-section.cf7-sec-page .intro_text > p {
+    margin-bottom: 4.5rem;
+  }
+}
+@media (min-width: 1199.6px) {
+  .il_columns.cf7-section.cf7-sec-page .il_block_bg {
+    margin-top: 4.5rem;
+  }
+}
+.il_columns.cf7-section.cf7-sec-page .container, .il_columns.cf7-section.cf7-sec-page .il-countdown-wrapper {
+  background: url("/wp-content/uploads/2023/05/REACT-ASSETS-3-3-1.png"), #fff;
+  background-repeat: no-repeat;
+  background-position: bottom 4% right;
+  background-size: 33rem 35rem, cover;
+}
+@media (max-width: 797.5px) {
+  .il_columns.cf7-section.cf7-sec-page .container, .il_columns.cf7-section.cf7-sec-page .il-countdown-wrapper {
+    background-position: bottom 2% right;
+    background-size: 30rem 32rem, cover;
+  }
+}
+@media (min-width: 1199.6px) {
+  .il_columns.cf7-section.cf7-sec-page .container, .il_columns.cf7-section.cf7-sec-page .il-countdown-wrapper {
+    margin-top: -4.5rem;
+  }
+}
 
 .il-countdown {
   display: flex;

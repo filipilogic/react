@@ -174,4 +174,38 @@
     }
   }
 
+  &.cf7-section.cf7-sec-page {
+    padding-top: 0;
+    @include tab-max {
+      padding: 8rem 0;
+      .intro_text > p {
+        margin-bottom: 6.5rem;
+      }
+    }
+    @include limbo-min {
+      .intro_text > p {
+        margin-bottom: 4.5rem;
+      }
+    }
+    @include desk-min {
+      .il_block_bg {
+        margin-top: 4.5rem;
+      }
+    }
+    .container {
+      background: url('/wp-content/uploads/2023/05/REACT-ASSETS-3-3-1.png'), #fff;
+      background-repeat: no-repeat;
+      background-position: bottom 4% right;
+      background-size: 33rem 35rem, cover;
+      @include tab-max {
+        background-position: bottom 2% right;
+        background-size: 30rem 32rem, cover;
+      }
+      @include desk-min {
+        margin-top: -4.5rem;
+      }
+
+    }
+  }
+
 }
