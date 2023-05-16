@@ -98,10 +98,6 @@
         }
         p {
             line-height: 4.55rem;
-            @include mob-only {
-                margin-top: 2.5rem;
-                margin-bottom: 2.5rem;
-            }
         }
         @include mob-only {
             flex-direction: column;
