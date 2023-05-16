@@ -496,6 +496,10 @@ div.margin-xl {
     margin-right: 2%;
   }
 }
+.il_columns.cf7-section form .textarea-add-info {
+  width: 100%;
+  margin-right: 0;
+}
 .il_columns.cf7-section form .submit-button {
   display: flex;
   flex-direction: column;
@@ -549,6 +553,55 @@ div.margin-xl {
   .il_columns.cf7-section form input:not(.wpcf7-submit), .il_columns.cf7-section form select, .il_columns.cf7-section form textarea, .il_columns.cf7-section form input:not(.wpcf7-submit)::placeholder, .il_columns.cf7-section form select::placeholder, .il_columns.cf7-section form textarea::placeholder {
     font-size: 15px;
   }
+}
+.il_columns.cf7-section form .checkbox-want {
+  width: 100%;
+}
+@media (max-width: 797.5px) {
+  .il_columns.cf7-section form .checkbox-want .wpcf7-checkbox {
+    flex-direction: column;
+  }
+  .il_columns.cf7-section form .checkbox-want .cw-first {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 1199.5px) {
+  .il_columns.cf7-section form .checkbox-want {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .il_columns.cf7-section form .checkbox-want span {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .il_columns.cf7-section form .checkbox-want .wpcf7-checkbox {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+.il_columns.cf7-section form .checkbox-want span {
+  font-weight: 500;
+}
+@media (max-width: 1199.5px) {
+  .il_columns.cf7-section form .checkbox-want .wpcf7-list-item label {
+    flex-direction: row;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .il_columns.cf7-section form .checkbox-want .wpcf7-list-item label span {
+    height: auto;
+    background: none;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+.il_columns.cf7-section form .checkbox-want .wpcf7-list-item label span {
+  font-weight: 400;
+}
+.il_columns.cf7-section form .checkbox-want .wpcf7-list-item label input {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-right: 10px;
 }
 .il_columns.cf7-section form input.wpcf7-submit {
   background: var(--color-1);
@@ -3687,6 +3740,44 @@ a.il_btn {
 @media (min-width: 1199.6px) {
   .il_columns.cf7-section .container .intro_title, .il_columns.cf7-section .il-countdown-wrapper .intro_title {
     font-size: 4.4rem;
+  }
+}
+.il_columns.cf7-section.cf7-sec-page {
+  padding-top: 0;
+}
+@media (max-width: 797.5px) {
+  .il_columns.cf7-section.cf7-sec-page {
+    padding: 8rem 0;
+  }
+  .il_columns.cf7-section.cf7-sec-page .intro_text > p {
+    margin-bottom: 6.5rem;
+  }
+}
+@media (min-width: 797.6px) {
+  .il_columns.cf7-section.cf7-sec-page .intro_text > p {
+    margin-bottom: 4.5rem;
+  }
+}
+@media (min-width: 1199.6px) {
+  .il_columns.cf7-section.cf7-sec-page .il_block_bg {
+    margin-top: 4.5rem;
+  }
+}
+.il_columns.cf7-section.cf7-sec-page .container, .il_columns.cf7-section.cf7-sec-page .il-countdown-wrapper {
+  background: url("/wp-content/uploads/2023/05/REACT-ASSETS-3-3-1.png"), #fff;
+  background-repeat: no-repeat;
+  background-position: bottom 4% right;
+  background-size: 33rem 35rem, cover;
+}
+@media (max-width: 797.5px) {
+  .il_columns.cf7-section.cf7-sec-page .container, .il_columns.cf7-section.cf7-sec-page .il-countdown-wrapper {
+    background-position: bottom 2% right;
+    background-size: 30rem 32rem, cover;
+  }
+}
+@media (min-width: 1199.6px) {
+  .il_columns.cf7-section.cf7-sec-page .container, .il_columns.cf7-section.cf7-sec-page .il-countdown-wrapper {
+    margin-top: -4.5rem;
   }
 }
 

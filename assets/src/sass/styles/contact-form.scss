@@ -1,4 +1,5 @@
-.il_columns.cf7-section {form {
+.il_columns.cf7-section {
+    form {
         display: flex;
         flex-wrap: wrap;
         p {
@@ -15,6 +16,10 @@
             @include limbo-min {
                 margin-right: 2%;
             }
+        }
+        .textarea-add-info {
+            width: 100%;
+            margin-right: 0;
         }
         .submit-button {
             @include tab-max {
@@ -49,6 +54,49 @@
             }
             @include mob-only {
                 font-size: 15px;
+            }
+        }
+        .checkbox-want {
+            width: 100%;
+            @include tab-max {
+                .wpcf7-checkbox {
+                    flex-direction: column;
+                }
+                .cw-first {
+                    margin-bottom: 1rem;
+                }
+            }
+            @include limbo-max {
+                display: flex;
+                flex-wrap: wrap;
+                span {
+                    width: fit-content;
+                }
+                .wpcf7-checkbox {
+                    display: flex;
+                    align-items: flex-start;
+                }
+            }
+            span {
+                font-weight: 500;
+            }
+            .wpcf7-list-item label  {
+                @include limbo-max {
+                    flex-direction: row;
+                    width: fit-content;
+                    span {
+                        height: auto;
+                        background: none;
+                        width: fit-content;
+                    }
+                }
+                span {
+                    font-weight: 400;
+                }
+                input {
+                    width: fit-content;
+                    margin-right: 10px;
+                }
             }
         }
         input.wpcf7-submit {
