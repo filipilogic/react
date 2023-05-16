@@ -13,7 +13,7 @@ get_header();
 			<div class="container">
 				<div class="il_archive_blog_hero_titile">
 					<h1><?php echo $our_title; ?></h1>
-					<img src="<?php echo get_template_directory_uri().'/assets/icons/archive-back.png'; ?>" alt="">
+					<img src="<?php echo get_template_directory_uri().'/assets/icons/archive-back.png'; ?>" alt="Archive cubes">
 				</div>
 				
 			</div>	
@@ -71,6 +71,9 @@ get_header();
 		?>
 		</div>
 	</main><!-- #main -->
+	<div class="il_blog_footer">
+		<img src="<?php echo get_template_directory_uri().'/assets/icons/blog-footer.png'; ?>" alt="Blog footer">
+	</div>
 
 <?php
 get_footer();
