@@ -4651,6 +4651,29 @@ a.il_btn {
        object-position: 78%;
   }
 }
+.il_hero.fit-content.upcoming-event {
+  padding-top: 23rem;
+  padding-bottom: 12rem;
+}
+.il_hero.fit-content.upcoming-event .intro_title {
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 8.4rem;
+  max-width: 970px;
+  margin: 0 auto;
+}
+.il_hero.fit-content.upcoming-event .intro_subtitle {
+  font-size: 4.4rem;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 4rem;
+}
+@media (max-width: 1199.5px) {
+  .il_hero.fit-content.upcoming-event .intro_subtitle {
+    font-size: 6rem;
+  }
+}
+
 .il_info_block {
   background: url(../../../assets/icons/info-back.png);
   background-repeat: no-repeat;
