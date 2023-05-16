@@ -1551,7 +1551,6 @@ a.il_btn {
   text-align: center;
 }
 .il_hero .il_hero_inner div {
-  margin-bottom: 3rem;
   display: block;
   color: #fff;
 }
@@ -1565,16 +1564,20 @@ a.il_btn {
     font-size: 3.5rem;
   }
 }
+.il_hero .il_hero_inner div.buttons {
+  margin-bottom: 0;
+}
 .il_hero .intro_title {
   font-size: 9rem;
   line-height: 1;
   color: var(--color-2);
   font-weight: 400;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 @media (max-width: 1199.5px) {
   .il_hero .intro_title {
     font-size: 8rem;
+    margin-bottom: 10px;
   }
 }
 .il_hero .intro_subtitle {
@@ -1627,8 +1630,8 @@ a.il_btn {
   justify-content: center;
 }
 .il_hero.fit-content {
-  padding-top: 27rem;
-  padding-bottom: 22rem;
+  padding-top: 28rem;
+  padding-bottom: 25rem;
 }
 .il_hero.fit-content .il_block_bg img {
   -o-object-position: bottom right;
@@ -1640,7 +1643,6 @@ a.il_btn {
        object-position: 78%;
   }
 }
-
 .il_info_block {
   background: url(../../../assets/icons/info-back.png);
   background-repeat: no-repeat;
