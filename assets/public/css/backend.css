@@ -2535,8 +2535,18 @@ a.il_btn {
 .il_section.il_past_events_section {
   padding: 8rem 0;
 }
+@media (max-width: 797.5px) {
+  .il_section.il_past_events_section {
+    padding-bottom: 4rem;
+  }
+}
 .il_section.il_past_events_section .il_past_events_section_header {
   padding-bottom: 5rem;
+}
+@media (max-width: 797.5px) {
+  .il_section.il_past_events_section .il_past_events_section_header {
+    padding-bottom: 7rem;
+  }
 }
 .il_section.il_past_events_section .il_past_events_title {
   color: var(--color-2);
@@ -2567,7 +2577,7 @@ a.il_btn {
   .il_section.il_past_events_section .il_past_events_section_posts article {
     flex: 100%;
     padding-bottom: 3rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 }
 .il_section.il_past_events_section .il_past_events_section_posts article a {

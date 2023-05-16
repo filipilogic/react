@@ -2,8 +2,14 @@
 
     &.il_past_events_section{
         padding: 8rem 0;
+        @include tab-max {
+            padding-bottom: 4rem;
+        }
         .il_past_events_section_header{
             padding-bottom: 5rem;
+            @include tab-max {
+                padding-bottom: 7rem;
+            }
         }
         .il_past_events_title{
             color:var(--color-2);
@@ -32,7 +38,7 @@
                 @include tab-max{
                     flex:100%;
                     padding-bottom: 3rem;
-                    margin-bottom: 3rem;
+                    margin-bottom: 5rem;
                 }
                 a{
                     text-decoration: none;
