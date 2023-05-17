@@ -2691,6 +2691,7 @@ a.il_btn {
 }
 .il_section.il_past_events_section .il_past_events_description {
   margin-bottom: 0;
+  font-weight: 700;
 }
 .il_section.il_past_events_section .il_past_events_section_posts {
   display: flex;
@@ -2735,6 +2736,7 @@ a.il_btn {
   color: #6A6A6A;
   padding-left: 3.2rem;
   padding-right: 3.2rem;
+  font-weight: 500;
 }
 .il_section.il_past_events_section .il_past_events_section_posts article a .entry-content p {
   margin-bottom: 0;
