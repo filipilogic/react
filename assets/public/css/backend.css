@@ -633,6 +633,8 @@ a.il_btn {
   flex-wrap: wrap;
 }
 .il_columns.speakers-style {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
   background: url(../../../assets/icons/speakers-back.png);
   background-repeat: no-repeat;
   background-position: top right;
@@ -660,6 +662,11 @@ a.il_btn {
   border-radius: 50%;
   max-width: 230px;
   width: 100%;
+}
+@media (max-width: 1199.5px) {
+  .il_columns.speakers-style .il_columns_inner .column img {
+    max-width: 140px;
+  }
 }
 .il_columns.speakers-style .il_columns_inner .column .intro_title {
   font-size: 2.8rem;

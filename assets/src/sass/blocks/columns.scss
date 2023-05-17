@@ -4,6 +4,8 @@
     flex-wrap: wrap;
   }
   &.speakers-style{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
     background: url( ../../../assets/icons/speakers-back.png);
     background-repeat: no-repeat;
     background-position: top right;
@@ -39,6 +41,9 @@
           border-radius: 50%;
           max-width: 230px;
           width: 100%;
+          @include limbo-max {
+            max-width: 140px;
+          }
         }
 
         .intro_title {
