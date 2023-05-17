@@ -198,7 +198,12 @@
             margin-bottom: 13rem;
             text-decoration: none;
             color: var(--color-4);
-            padding-top: 11rem;
+            @include tab-max {
+                margin-bottom: 10rem;
+            }
+            &:first-child {
+                padding-top: 11rem;
+            }
             &:nth-child(even) {
                 @include limbo-min {
                     .il_blog_post{

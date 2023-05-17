@@ -351,6 +351,13 @@ div.margin-xl {
   margin-bottom: 13rem;
   text-decoration: none;
   color: var(--color-4);
+}
+@media (max-width: 797.5px) {
+  .blog .il_blog_post_wrapper, .archive .il_blog_post_wrapper {
+    margin-bottom: 10rem;
+  }
+}
+.blog .il_blog_post_wrapper:first-child, .archive .il_blog_post_wrapper:first-child {
   padding-top: 11rem;
 }
 @media (min-width: 797.6px) {
