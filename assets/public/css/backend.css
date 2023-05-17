@@ -553,7 +553,7 @@ a.il_btn {
   }
 }
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content {
-  color: var(--color-4);
+  color: #00134B;
   padding-left: 6rem;
 }
 @media (max-width: 797.5px) {
@@ -605,6 +605,7 @@ a.il_btn {
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_name {
   font-size: 16px;
   line-height: 22px;
+  font-weight: 500;
 }
 @media (max-width: 1199.5px) {
   .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_name {
