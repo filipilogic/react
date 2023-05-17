@@ -1757,6 +1757,9 @@ a.il_btn {
 .il_info_block .il_block_images img:first-of-type {
   margin-right: 5rem;
 }
+.il_info_block .il_block_intro .intro_title {
+  margin-bottom: 1rem;
+}
 .il_info_block .il_block_intro .intro_subtitle {
   margin-bottom: 3rem;
   font-size: 3.6rem;
