@@ -2742,6 +2742,9 @@ a.il_btn {
   margin-bottom: 0;
   padding-bottom: 3rem;
 }
+.il_section.il_past_events_section:after {
+  content: "";
+}
 
 .il_section.style-1 {
   padding: 10rem 0;
