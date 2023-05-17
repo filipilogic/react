@@ -3,8 +3,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding-top: var(--b-space-2);
-    padding-bottom: var(--b-space-2);
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+    @include limbo-max {
+        padding-top: 7rem;
+        padding-bottom: 7rem;
+    }
 
     .il_block_images{
         display: flex;
@@ -13,7 +17,7 @@
         padding-bottom: 6rem;
 
         img{
-
+            width: 23.2rem;
             &:first-of-type{
                 margin-right: 5rem;
             }
