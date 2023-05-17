@@ -3538,7 +3538,7 @@ main {
   font-family: "Font Primary";
 }
 .site-main div, .site-main p, .site-main a, .interface-interface-skeleton__content div, .interface-interface-skeleton__content p, .interface-interface-skeleton__content a {
-  font-family: "Font Secondary";
+  font-family: "Font Primary";
 }
 .site-main p, .site-main li, .interface-interface-skeleton__content p, .interface-interface-skeleton__content li {
   margin-top: 0;

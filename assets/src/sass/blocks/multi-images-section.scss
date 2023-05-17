@@ -9,7 +9,7 @@
     width: var(--site-width);
     max-width: var(--site-max-width);
     margin: auto;
-    mix-blend-mode: luminosity;
+    mix-blend-mode: luminosity; 
     @include limbo-max {
       display: none;
     }
