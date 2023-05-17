@@ -5716,11 +5716,16 @@ a.il_btn {
 }
 
 .il_section.il_past_events_section {
-  padding: 8rem 0;
+  padding: 12.5rem 0 8rem 0;
 }
 @media (max-width: 797.5px) {
   .il_section.il_past_events_section {
     padding-bottom: 4rem;
+  }
+}
+@media (max-width: 1199.5px) {
+  .il_section.il_past_events_section {
+    padding-top: 8rem;
   }
 }
 .il_section.il_past_events_section .il_past_events_section_header {
@@ -5789,8 +5794,19 @@ a.il_btn {
   margin-bottom: 0;
   padding-bottom: 3rem;
 }
-.il_section.il_past_events_section:after {
-  content: "";
+@media (min-width: 1199.6px) {
+  .il_section.il_past_events_section:after {
+    content: "";
+    background: url("/wp-content/uploads/2023/05/PAST-EVENT-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    position: absolute;
+    right: 0;
+    top: 1.5rem;
+    width: 97rem;
+    height: 12rem;
+  }
 }
 
 .il_section.style-1 {

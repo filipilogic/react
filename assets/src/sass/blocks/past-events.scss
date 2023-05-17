@@ -1,9 +1,12 @@
 .il_section{
 
     &.il_past_events_section{
-        padding: 8rem 0;
+        padding: 12.5rem 0 8rem 0;
         @include tab-max {
             padding-bottom: 4rem;
+        }
+        @include limbo-max {
+            padding-top: 8rem;
         }
         .il_past_events_section_header{
             padding-bottom: 5rem;
@@ -68,8 +71,19 @@
                 }
             }
         }
-        &:after {
-            content: '';
+        @include desk-min {
+            &:after {
+                content: '';
+                background: url('/wp-content/uploads/2023/05/PAST-EVENT-1.png');
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: right;
+                position: absolute;
+                right: 0;
+                top: 1.5rem;
+                width: 97rem;
+                height: 12rem;
+            }
         }
     }
 
