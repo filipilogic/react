@@ -209,10 +209,11 @@ div.margin-xl {
   display: inline-block;
   background: #E6E6E6;
   border-radius: 16px;
-  padding: 2px 10px;
+  padding: 8px 14px;
   margin-right: 8px;
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 2rem;
+  font-weight: 500;
   text-transform: capitalize;
   color: var(--color-2);
 }
@@ -246,7 +247,14 @@ div.margin-xl {
   padding-bottom: 8rem;
 }
 .il_archive_blog_hero .il_archive_blog_hero_titile h1 {
+  font-size: var(--title-size-3);
+  font-weight: 600;
   color: #fff;
+}
+@media (min-width: 1199.6px) {
+  .il_archive_blog_hero .il_archive_blog_hero_titile h1 {
+    font-size: var(--title-size-2);
+  }
 }
 .il_archive_blog_hero .il_archive_blog_hero_titile img {
   position: absolute;
@@ -400,6 +408,12 @@ div.margin-xl {
   line-height: 1.2;
   font-weight: 700;
 }
+@media (max-width: 1199.5px) {
+  .blog .il_blog_post .il_bp_left .il_bp_title h2, .archive .il_blog_post .il_bp_left .il_bp_title h2 {
+    font-size: 26px;
+    line-height: 26px;
+  }
+}
 .blog .il_blog_post .il_bp_left .date, .archive .il_blog_post .il_bp_left .date {
   background-color: #F3F3F3;
   font-size: 16px;
@@ -417,16 +431,14 @@ div.margin-xl {
 }
 .blog .il_blog_post .il_bp_left .il_bp_meta, .archive .il_blog_post .il_bp_left .il_bp_meta {
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 14px;
   line-height: 2.6rem;
   color: var(--color-2);
   margin-bottom: 1.2rem;
 }
 .blog .il_blog_post .il_bp_left .il_bp_text, .archive .il_blog_post .il_bp_left .il_bp_text {
   color: var(--color-4);
-  font-size: 1.8rem;
   font-weight: 400;
-  line-height: 2.8rem;
   margin-bottom: 2.5rem;
 }
 @media (max-width: 479.5px) {
