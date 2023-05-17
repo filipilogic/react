@@ -6,6 +6,9 @@
     background: radial-gradient(75.63% 64.98% at 51.22% 49.92%, #144A9D 0%, #132051 100%);
     padding-top: 12rem;
     padding-bottom: 5rem;
+    @include limbo-max {
+        padding-bottom: 9rem;
+    }
 
     &_content{
         padding-top: 2rem;
@@ -13,9 +16,11 @@
         max-width: 1360px;
         margin:0 auto;
         width:85%;
-
         @include mob-only{
             width: calc(100% - 50px);
+        }
+        @include limbo-max {
+            padding-top: 5rem;
         }
     }
     &_back_link{
@@ -26,12 +31,18 @@
         color: #E7E7E8;
         text-decoration: none;
         margin-bottom: 2.4rem;
+        @include limbo-max {
+            margin-bottom: 5rem;
+        }
    }
     &_title{
         font-weight: 600;
         font-size: 5.6rem;
         line-height: 1.2;
         margin-bottom: 1.5rem;
+        @include limbo-max {
+            margin-bottom: 4rem;
+        }
     }
     &_excerpt{
         font-family: 'Font Primary' !important;

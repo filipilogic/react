@@ -170,6 +170,11 @@ div.margin-xl {
   padding-top: 12rem;
   padding-bottom: 5rem;
 }
+@media (max-width: 1199.5px) {
+  .il_blog_hero {
+    padding-bottom: 9rem;
+  }
+}
 .il_blog_hero_content {
   padding-top: 2rem;
   color: #fff;
@@ -182,6 +187,11 @@ div.margin-xl {
     width: calc(100% - 50px);
   }
 }
+@media (max-width: 1199.5px) {
+  .il_blog_hero_content {
+    padding-top: 5rem;
+  }
+}
 .il_blog_hero_back_link {
   display: inline-block;
   font-weight: 500;
@@ -191,11 +201,21 @@ div.margin-xl {
   text-decoration: none;
   margin-bottom: 2.4rem;
 }
+@media (max-width: 1199.5px) {
+  .il_blog_hero_back_link {
+    margin-bottom: 5rem;
+  }
+}
 .il_blog_hero_title {
   font-weight: 600;
   font-size: 5.6rem;
   line-height: 1.2;
   margin-bottom: 1.5rem;
+}
+@media (max-width: 1199.5px) {
+  .il_blog_hero_title {
+    margin-bottom: 4rem;
+  }
 }
 .il_blog_hero_excerpt {
   font-family: "Font Primary" !important;
