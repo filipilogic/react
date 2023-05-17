@@ -588,7 +588,7 @@ a.il_btn {
 }
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_content p {
   font-size: 18px;
-  font-size: 26px;
+  line-height: 26px;
   margin-bottom: 2.5rem;
 }
 @media (max-width: 797.5px) {
