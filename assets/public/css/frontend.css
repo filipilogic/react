@@ -3646,6 +3646,7 @@ a.il_btn {
   background-position: top right;
 }
 .il_columns.speakers-style .il_block_intro .intro_title {
+  font-size: var(--title-size-3);
   text-transform: uppercase;
   margin-bottom: 2rem;
   font-weight: 600;
@@ -3653,8 +3654,6 @@ a.il_btn {
 .il_columns.speakers-style .il_block_intro .intro_text p {
   max-width: 909px;
   margin: 0 auto;
-  font-size: 1.8rem;
-  line-height: 2.6rem;
   color: #57585D;
 }
 .il_columns.speakers-style .il_columns_inner {
@@ -3675,6 +3674,12 @@ a.il_btn {
   line-height: 1.3;
   color: var(--color-2);
   margin-bottom: 1.2rem;
+}
+@media (max-width: 1199.5px) {
+  .il_columns.speakers-style .il_columns_inner .column .intro_title {
+    margin-top: 2rem;
+    font-size: 4.4rem;
+  }
 }
 .il_columns.speakers-style .il_columns_inner .column .il_col_text p {
   color: #57585D;
