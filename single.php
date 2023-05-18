@@ -35,7 +35,9 @@ get_header();
 
 	</main><!-- #main -->
 	<div class="il_blog_footer">
-		<img src="<?php echo get_template_directory_uri().'/assets/icons/blog-footer-2.png'; ?>" alt="Blog footer">
+		<div class="container">
+			<img src="<?php echo get_template_directory_uri().'/assets/icons/blog-footer-2.png'; ?>" alt="Blog footer">
+		</div>
 	</div>
 
 <?php
