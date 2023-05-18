@@ -209,6 +209,9 @@
           @include desk-min {
             border-radius: 0px 29px 29px 0px;
           }
+          @include lg-desk-min {
+            height: 59rem;
+          }
         }
       }
 
