@@ -29,11 +29,17 @@
             a {
                 display: block;
                 padding: 10px 15px;
-                font-size: 3.6rem;
+                font-size: 2.8rem;
                 color: #fff;
                 text-decoration: none;
                 color: var(--color-2);
                 font-family: "Font Primary";
+                @include limbo-only {
+                    font-size: 18px;
+                }
+                @include tab-max {
+                    font-size: 15px;
+                }
             }
             &.active {
                 a {

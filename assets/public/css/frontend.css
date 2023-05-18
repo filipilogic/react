@@ -3355,11 +3355,21 @@ a.il_btn {
 .il_agenda .il_tabs_nav li a {
   display: block;
   padding: 10px 15px;
-  font-size: 3.6rem;
+  font-size: 2.8rem;
   color: #fff;
   text-decoration: none;
   color: var(--color-2);
   font-family: "Font Primary";
+}
+@media (min-width: 797.6px) and (max-width: 1199.5px) {
+  .il_agenda .il_tabs_nav li a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 797.5px) {
+  .il_agenda .il_tabs_nav li a {
+    font-size: 15px;
+  }
 }
 .il_agenda .il_tabs_nav li.active a {
   color: rgba(0, 196, 204, 0.5);
