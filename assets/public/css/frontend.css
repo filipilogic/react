@@ -3888,10 +3888,10 @@ a.il_btn {
 }
 .il_columns.cf7-section.cf7-sec-page .container:after, .il_columns.cf7-section.cf7-sec-page .il-countdown-wrapper:after {
   content: "";
-  background: url("../../../assets/icons/leaderhip_community_bg_after.png");
+  background: url("/wp-content/uploads/2023/05/REACT-ASSETS-3-4-1.png");
   background-size: cover;
   position: absolute;
-  width: 39.3rem;
+  width: 30.8rem;
   height: 32.5rem;
   top: -8rem;
   right: -11rem;
