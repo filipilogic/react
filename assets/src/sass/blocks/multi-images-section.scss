@@ -218,6 +218,9 @@
         color: #2B286D;
         font-weight: 500;
         margin-bottom: 2rem;
+        @include mob-only {
+          width: 100%;
+        }
         @include tab-only {
           width: 50%;
           font-size: 14px;

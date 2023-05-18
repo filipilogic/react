@@ -5571,6 +5571,11 @@ a.il_btn {
   font-weight: 500;
   margin-bottom: 2rem;
 }
+@media (max-width: 479.5px) {
+  .il_mi_section.style-2 .info_box_2 ul li {
+    width: 100%;
+  }
+}
 @media (min-width: 479.6px) and (max-width: 797.5px) {
   .il_mi_section.style-2 .info_box_2 ul li {
     width: 50%;
