@@ -1,6 +1,6 @@
 {
     "key": "group_646209a3963d2",
-    "title": "Post - Event (copy)",
+    "title": "Post - Event home excerpt",
     "fields": [
         {
             "key": "field_646209a3998e6",
@@ -41,5 +41,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1684146889
+    "modified": 1684752107
 }
