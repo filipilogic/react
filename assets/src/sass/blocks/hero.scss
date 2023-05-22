@@ -90,6 +90,7 @@
     &.upcoming-event {
       padding-top: 23rem;
       padding-bottom: 12rem;
+      position: relative;
       @include limbo-max {
         padding-bottom: 17rem;
       }
@@ -107,6 +108,42 @@
         margin-bottom: 4rem;
         @include limbo-max {
           font-size: 6rem;
+        }
+      }
+      .upcoming-event-badge{
+        background: #2BB99B;
+        border-radius: 8px 8px 0px 0px;
+        padding: 2.1rem 2rem;
+        max-width: 260px;
+        position: absolute;
+        bottom:0;
+        right: 8%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        @include tab-max{
+          right: 50%;
+          transform: translateX(50%);
+        }
+
+        span{
+          font-size: 2.4rem;
+          line-height: 1.5;
+          color:#fff;
+          text-transform: uppercase;
+          font-weight: 800;
+        }
+        svg{
+          margin-left: 1.6rem;
+        }
+      }
+      .buttons{
+        @include mob-only{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
         }
       }
     }

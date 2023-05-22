@@ -4768,6 +4768,7 @@ a.il_btn {
 .il_hero.fit-content.upcoming-event {
   padding-top: 23rem;
   padding-bottom: 12rem;
+  position: relative;
 }
 @media (max-width: 1199.5px) {
   .il_hero.fit-content.upcoming-event {
@@ -4790,6 +4791,42 @@ a.il_btn {
 @media (max-width: 1199.5px) {
   .il_hero.fit-content.upcoming-event .intro_subtitle {
     font-size: 6rem;
+  }
+}
+.il_hero.fit-content.upcoming-event .upcoming-event-badge {
+  background: #2BB99B;
+  border-radius: 8px 8px 0px 0px;
+  padding: 2.1rem 2rem;
+  max-width: 260px;
+  position: absolute;
+  bottom: 0;
+  right: 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 797.5px) {
+  .il_hero.fit-content.upcoming-event .upcoming-event-badge {
+    right: 50%;
+    transform: translateX(50%);
+  }
+}
+.il_hero.fit-content.upcoming-event .upcoming-event-badge span {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.il_hero.fit-content.upcoming-event .upcoming-event-badge svg {
+  margin-left: 1.6rem;
+}
+@media (max-width: 479.5px) {
+  .il_hero.fit-content.upcoming-event .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 
