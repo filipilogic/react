@@ -211,6 +211,35 @@
                             "parent_repeater": "field_641a2a1c450bb"
                         },
                         {
+                            "key": "field_646cc1831ec91",
+                            "label": "Duration",
+                            "name": "agenda_duration",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_645b6b4817c3d",
+                                        "operator": "==",
+                                        "value": "style-2"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "15",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "parent_repeater": "field_641a2a1c450bb"
+                        },
+                        {
                             "key": "field_645b6c0917c3f",
                             "label": "Title",
                             "name": "agenda_title",
@@ -464,5 +493,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1683716629
+    "modified": 1684849151
 }

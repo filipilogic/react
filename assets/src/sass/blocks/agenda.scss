@@ -304,6 +304,11 @@
                         @include mob-only{
                             padding-left: 0;
                         }
+
+                        .agenda-timeslot-container {
+                            display: flex;
+                            align-items: center;
+                        }
     
                         &_time{
                             font-family: 'Font Primary';
@@ -311,6 +316,18 @@
                             line-height: 1.4;
                             font-weight: 700;
                             margin-bottom: 0.7rem;
+                            @include mob-only {
+                                margin-top: 2rem;
+                            }
+                        }
+    
+                        &_duration{
+                            font-family: 'Font Primary';
+                            font-size: 20px;
+                            line-height: 1.4;
+                            font-weight: 700;
+                            margin-bottom: 0.7rem;
+                            margin-left: 1rem;
                             @include mob-only {
                                 margin-top: 2rem;
                             }
