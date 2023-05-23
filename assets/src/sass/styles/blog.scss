@@ -180,6 +180,11 @@
     .img-rounded{
         figure{
             margin-right: 3rem;
+            @include limbo-max {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 3rem;
+            }
             img{
                 border-radius: 4.2rem;   
             }
