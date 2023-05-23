@@ -49,10 +49,10 @@ jQuery(document).ready(function ($) {
         $(".tg_modal.si_open:not(.tg_modal-3)").slideToggle().removeClass('si_open');
     }); */
 
-
-
-
-
+    document.addEventListener( 'wpcf7mailsent', function( event ) {
+        location = '/thank-you';
+    }, false );
+       
 });
 
 window.onscroll = function() {

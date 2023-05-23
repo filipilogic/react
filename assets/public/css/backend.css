@@ -1973,6 +1973,35 @@ a.il_btn {
   }
 }
 
+.thank-you-page .column {
+  width: 100%;
+}
+.thank-you-page .container, .thank-you-page .il-countdown-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+.thank-you-page h1.intro_title {
+  margin-top: 3.6rem;
+  margin-bottom: 0 !important;
+  font-size: 7rem !important;
+  line-height: 1.2;
+}
+.thank-you-page .intro_subtitle {
+  font-size: 3.6rem;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.thank-you-page .intro_text .thank-you-page-text {
+  max-width: 530px;
+  margin: 0 auto;
+  padding-top: 1.6rem;
+  color: #9F9FA2;
+  padding-bottom: 3.6rem;
+  font-family: "Font Secondary";
+}
+
 .il_lb_carousel_block {
   position: relative;
 }
