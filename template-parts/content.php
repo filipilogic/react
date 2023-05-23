@@ -22,7 +22,7 @@
 			<h1 class="il_blog_hero_title"><?php the_title(); ?></h1>
 			<p class="il_blog_hero_excerpt">
 				<?php 
-				if (get_the_excerpt()) {
+				if (has_excerpt()) {
 					echo get_the_excerpt();
 				}  ?>
 			</p>
