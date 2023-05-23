@@ -34,7 +34,7 @@ get_header();
 						<div class="il_bp_left">
 						<div class="il_bp_title"><h2 class="tg_title_1 tg_dark"><?php the_title(); ?><?php ?></h2></div>
 						
-						<span class="il_bp_meta"><?php  echo get_the_author_meta( 'nickname').' • '.get_the_date('d M Y'); ?></span>
+						<span class="il_bp_meta"><?php  echo get_the_date('d M Y'); ?></span>
 
 						<div class="il_bp_text">
 						<?php if (get_the_excerpt()) {
