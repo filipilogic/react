@@ -359,6 +359,7 @@ div.margin-xl {
 }
 .post_container .img-rounded figure img {
   border-radius: 4.2rem;
+  margin-right: 3rem;
 }
 .post_container a {
   text-decoration: none;
