@@ -178,7 +178,12 @@
         margin-bottom:4rem;
     }
     .img-rounded{
-        border-radius: 4.2rem;
+        figure{
+            img{
+                border-radius: 4.2rem;
+            }
+        }
+
     }
     a{
         text-decoration: none;
