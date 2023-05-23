@@ -354,6 +354,9 @@ div.margin-xl {
   border-left: 5px solid #EA3E85;
   padding-left: 16px;
 }
+.post_container figure {
+  margin-bottom: 4rem;
+}
 .post_container a {
   text-decoration: none;
   color: var(--color-2);
