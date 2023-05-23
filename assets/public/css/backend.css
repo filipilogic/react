@@ -2994,6 +2994,9 @@ a.il_btn {
     background: none;
   }
 }
+.il_section.style-3 .container, .il_section.style-3 .il-countdown-wrapper {
+  align-items: center;
+}
 .il_section.style-3 .il_section_inner {
   background: url(../../../assets/icons/next-event.png), #FFFFFF;
   background-repeat: no-repeat, no-repeat;
