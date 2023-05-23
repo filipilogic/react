@@ -334,7 +334,7 @@ div.margin-xl {
   }
 }
 .post_container p {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   font-weight: 400;
 }
 .post_container h2, .post_container h3, .post_container h4, .post_container h5, .post_container h6 {
@@ -342,7 +342,7 @@ div.margin-xl {
   text-transform: none;
   font-weight: 600;
   color: var(--color-2);
-  margin-bottom: 1.4rem;
+  margin-bottom: 4rem;
 }
 .post_container h2 {
   font-size: 3rem;
