@@ -6703,6 +6703,12 @@ a.il_btn {
 .il_video_section.style_2 .right::after {
   content: none;
 }
+.il_video_section.style_2 .right a {
+  width: 100%;
+}
+.il_video_section.style_2 .right a img {
+  width: 100%;
+}
 .il_video_section.style_2 .left {
   display: none;
 }
