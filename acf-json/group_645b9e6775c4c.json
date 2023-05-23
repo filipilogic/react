@@ -231,6 +231,32 @@
             "layout": "block",
             "prefix_label": 0,
             "prefix_name": 0
+        },
+        {
+            "key": "field_646cc08dd6a04",
+            "label": "Style",
+            "name": "style",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "style_1": "Style 1",
+                "style_2": "Style 2"
+            },
+            "default_value": "style_1",
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
         }
     ],
     "location": [
@@ -251,5 +277,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1683728082
+    "modified": 1684850266
 }

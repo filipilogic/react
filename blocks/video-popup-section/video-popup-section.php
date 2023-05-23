@@ -2,9 +2,10 @@
 $stack = get_field_object('stack');
 $margin = get_field_object('margin');
 $padding = get_field_object('padding');
+$block_style = get_field('style');
 
 
-$class = 'il_block il_video_section';
+$class = 'il_block il_video_section '.$block_style;
 if ( ! empty( $block['className'] ) ) {
     $class .= ' ' . $block['className'];
 }

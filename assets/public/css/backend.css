@@ -21,10 +21,19 @@
   --theme-transition: .3s all;
   --site-max-width: 1360px;
 }
+@media (min-width: 797.6px) and (max-width: 1600px) {
+  :root {
+    --body-size: 20px;
+  }
+}
+@media (min-width: 1601px) {
+  :root {
+    --body-size: 18px;
+  }
+}
 @media (min-width: 797.6px) {
   :root {
     --site-width: 90%;
-    --body-size: 18px;
   }
 }
 @media (max-width: 797.5px) {
@@ -3635,6 +3644,22 @@ a.il_btn {
   .il_video_section .il_section_inner > div {
     flex-basis: 100%;
   }
+}
+.il_video_section.style_2 .right {
+  flex: 100% 0 0;
+}
+.il_video_section.style_2 .right::after {
+  content: none;
+}
+.il_video_section.style_2 .left {
+  display: none;
+}
+.il_video_section.style_2 .il_section_inner {
+  padding-left: 0;
+  box-shadow: none;
+  background: none;
+  max-width: 100%;
+  width: 100%;
 }
 
 html {

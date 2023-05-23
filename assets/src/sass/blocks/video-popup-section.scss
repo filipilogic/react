@@ -69,4 +69,23 @@
       }
     }
 
+    &.style_2{
+      .right{
+        flex: 100% 0 0;
+        &::after{
+          content: none;
+        }
+      }
+      .left{
+        display: none;
+      }
+      .il_section_inner {
+        padding-left: 0;
+        box-shadow: none;
+        background: none;
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+
 }

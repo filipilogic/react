@@ -17,9 +17,17 @@
 
   --theme-transition: .3s all;
 
+ @media (min-width:797.6px) and (max-width:1600px) {
+    --body-size: 20px;
+ }
+
+ @media (min-width: 1601px) /* Insert the same width as limbo-min variable */ {
+  --body-size: 18px;
+
+}
+
   @media (min-width: 797.6px) /* Insert the same width as limbo-min variable */ {
     --site-width: 90%;
-    --body-size: 18px;
   }
 
   @media (max-width: 797.5px) /* Insert the same width as tab-max variable */ {
