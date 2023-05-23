@@ -556,7 +556,7 @@ a.il_btn {
 }
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_speakers_image img {
   border-radius: 100%;
-  max-width: 164px;
+  max-width: 230px;
 }
 @media (max-width: 797.5px) {
   .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_speakers_image img {
