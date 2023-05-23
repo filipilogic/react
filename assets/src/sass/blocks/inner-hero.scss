@@ -139,6 +139,14 @@
     }
 }
 .thank-you-page{
+    padding-top: 2.5rem !important;
+    &-header{
+        min-height: 16.6rem;
+    }
+
+    .il_block_bg{
+        margin-top: 0 !important;
+    }
     .column{
         width: 100%;
     }
@@ -148,6 +156,11 @@
        flex-direction: column-reverse;
        justify-content: center;
        align-items: center;
+       margin-top: 0 !important;
+       padding-top: 2.5rem;
+       &::after{
+        background:none !important;
+       }
 
     }
     h1.intro_title{

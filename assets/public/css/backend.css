@@ -1973,6 +1973,15 @@ a.il_btn {
   }
 }
 
+.thank-you-page {
+  padding-top: 2.5rem !important;
+}
+.thank-you-page-header {
+  min-height: 16.6rem;
+}
+.thank-you-page .il_block_bg {
+  margin-top: 0 !important;
+}
 .thank-you-page .column {
   width: 100%;
 }
@@ -1981,6 +1990,11 @@ a.il_btn {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
+  margin-top: 0 !important;
+  padding-top: 2.5rem;
+}
+.thank-you-page .container::after, .thank-you-page .il-countdown-wrapper::after {
+  background: none !important;
 }
 .thank-you-page h1.intro_title {
   margin-top: 3.6rem;
