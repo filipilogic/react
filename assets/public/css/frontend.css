@@ -751,6 +751,7 @@ div.margin-xl {
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 @media (min-width: 1360.6px) and (max-width: 1659.5px) {
   html {
