@@ -79,6 +79,15 @@
       @include limbo-max {
         font-size: 14px;
       }
+
+      a{
+        color:#fff;
+        text-decoration: none;
+        font-size: 18px;
+      @include limbo-max {
+        font-size: 14px;
+      }
+      }
     }
   }
   &.open {

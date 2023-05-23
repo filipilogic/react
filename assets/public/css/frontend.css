@@ -3314,6 +3314,16 @@ a.il_btn {
     font-size: 14px;
   }
 }
+.il_accordion-item .il_accordion-body p a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+@media (max-width: 1199.5px) {
+  .il_accordion-item .il_accordion-body p a {
+    font-size: 14px;
+  }
+}
 .il_accordion-item.open .il_accordion-header::after {
   transform: scaleY(-1);
 }
