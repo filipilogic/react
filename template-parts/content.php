@@ -24,9 +24,7 @@
 				<?php 
 				if (get_the_excerpt()) {
 					echo get_the_excerpt();
-				} else {
-					echo wp_trim_words(get_the_content(), 25);
-				} ?>
+				}  ?>
 			</p>
 			<?php
 				$post_categories = get_the_category();
