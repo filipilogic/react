@@ -1286,7 +1286,6 @@ figure img {
     background-color: var(--color-2);
     z-index: 99999;
     font-size: 14px;
-    padding: 1rem 2.2rem;
   }
 }
 .admin-bar.stick-top .header-version-1 .header-top, .admin-bar.stick-main .header-version-1 .header-main {
@@ -3209,12 +3208,11 @@ textarea {
 
 /* Buttons */
 .il_btn {
-  padding: 0.5rem 4rem;
+  padding: 10px 4rem;
   text-decoration: none;
   color: #fff;
   display: inline-flex;
   border-radius: 8px;
-  height: 41px;
 }
 .il_btn:first-child {
   background-color: var(--color-1);
@@ -3234,7 +3232,6 @@ a.il_btn {
   font-weight: 700;
   font-size: 18px;
   font-family: "Font Primary";
-  height: 41px;
 }
 
 .il_block_intro.left, .section.left {
