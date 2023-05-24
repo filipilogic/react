@@ -94,6 +94,10 @@
       @include limbo-max {
         padding-bottom: 17rem;
       }
+
+      @include mob-only{
+        padding-top: 230px;
+      }
       .intro_title {
         font-size: 7rem;
         font-weight: 600;
@@ -139,7 +143,7 @@
 
         @include mob-only{
           bottom:auto;
-          top: 11rem;
+          top: 160px;
           border-radius: 5px;
         }
 

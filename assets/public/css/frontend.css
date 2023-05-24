@@ -4829,6 +4829,11 @@ a.il_btn {
     padding-bottom: 17rem;
   }
 }
+@media (max-width: 479.5px) {
+  .il_hero.fit-content.upcoming-event {
+    padding-top: 230px;
+  }
+}
 .il_hero.fit-content.upcoming-event .intro_title {
   font-size: 7rem;
   font-weight: 600;
@@ -4882,7 +4887,7 @@ a.il_btn {
 @media (max-width: 479.5px) {
   .il_hero.fit-content.upcoming-event .upcoming-event-badge {
     bottom: auto;
-    top: 11rem;
+    top: 160px;
     border-radius: 5px;
   }
 }
