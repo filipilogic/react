@@ -63,6 +63,16 @@
         width: 24px;
         height: 24px;
         margin-left: 1.5rem;
+        @include mob-only{
+          width: 16px;
+          height: 16px;
+        }
+      }
+
+      @include mob-only{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
       }
     }
   }
