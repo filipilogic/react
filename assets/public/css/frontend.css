@@ -396,7 +396,6 @@ div.margin-xl {
 /* Archive */
 .blog main, .archive main {
   padding-top: 0rem;
-  background: #E1E1E1;
 }
 .blog .il_blog_post, .archive .il_blog_post {
   display: flex;
