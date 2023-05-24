@@ -100,6 +100,12 @@
         line-height: 8.4rem;
         max-width: 97rem;
         margin: 0 auto;
+        @include mob-only{
+          font-size: 3.2rem;
+          line-height: 120%;
+          max-width: 340px;
+          margin:0 auto;
+        }
       }
       .intro_subtitle {
         font-size: 4.4rem;
@@ -108,6 +114,10 @@
         margin-bottom: 4rem;
         @include limbo-max {
           font-size: 6rem;
+        }
+        @include mob-only{
+          font-size: 3rem;
+          line-height: 1.2;
         }
       }
       .upcoming-event-badge{
@@ -125,6 +135,12 @@
         @include tab-max{
           right: 50%;
           transform: translateX(50%);
+        }
+
+        @include mob-only{
+          bottom:auto;
+          top: 11rem;
+          border-radius: 5px;
         }
 
         span{
