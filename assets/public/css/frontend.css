@@ -6735,6 +6735,11 @@ a.il_btn {
     border-radius: 0 0 40px 40px;
   }
 }
+@media (max-width: 797.5px) {
+  .il_video_section .il_section_inner .right a img {
+    height: 50rem;
+  }
+}
 @media (max-width: 1199.5px) {
   .il_video_section .il_section_inner > div {
     flex-basis: 100%;

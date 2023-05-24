@@ -60,6 +60,13 @@
             }
           }
         }
+        @include tab-max {
+          a{
+            img{
+              height: 50rem;
+            }
+          }
+        }
       }
 
       @include limbo-max {
