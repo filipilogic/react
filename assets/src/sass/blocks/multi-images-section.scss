@@ -54,6 +54,7 @@
       border: 1px solid var(--color-2);
       @include mob-only {
         margin-bottom: 3rem;
+        font-size: 16px;
       }
     }
     &:nth-child(2) {
@@ -64,15 +65,12 @@
         height: 24px;
         margin-left: 1.5rem;
         @include mob-only{
-          width: 16px;
-          height: 16px;
+          content: none;
         }
       }
 
       @include mob-only{
-        font-size: 14px;
-        display: flex;
-        align-items: center;
+        font-size: 16px;
       }
     }
   }
