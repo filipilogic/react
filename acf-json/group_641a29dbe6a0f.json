@@ -211,35 +211,6 @@
                             "parent_repeater": "field_641a2a1c450bb"
                         },
                         {
-                            "key": "field_646cc1831ec91",
-                            "label": "Duration",
-                            "name": "agenda_duration",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": [
-                                [
-                                    {
-                                        "field": "field_645b6b4817c3d",
-                                        "operator": "==",
-                                        "value": "style-2"
-                                    }
-                                ]
-                            ],
-                            "wrapper": {
-                                "width": "15",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "parent_repeater": "field_641a2a1c450bb"
-                        },
-                        {
                             "key": "field_645b6c0917c3f",
                             "label": "Title",
                             "name": "agenda_title",
@@ -357,7 +328,7 @@
                             "label": "Speakers position",
                             "name": "speakers_position",
                             "aria-label": "",
-                            "type": "text",
+                            "type": "textarea",
                             "instructions": "",
                             "required": 0,
                             "conditional_logic": [
@@ -376,9 +347,9 @@
                             },
                             "default_value": "",
                             "maxlength": "",
+                            "rows": 3,
                             "placeholder": "",
-                            "prepend": "",
-                            "append": "",
+                            "new_lines": "br",
                             "parent_repeater": "field_641a2a1c450bb"
                         }
                     ]
@@ -493,5 +464,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1684849151
+    "modified": 1684907624
 }
