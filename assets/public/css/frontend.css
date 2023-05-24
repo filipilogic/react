@@ -680,7 +680,7 @@ div.margin-xl {
   background: var(--color-1);
   border: 0px;
   color: #fff;
-  padding: 1.7rem;
+  padding: 16.3px 1.7rem;
   font-weight: 700;
   cursor: pointer;
   transition: var(--theme-transition);
@@ -1286,6 +1286,7 @@ figure img {
     background-color: var(--color-2);
     z-index: 99999;
     font-size: 14px;
+    padding: 13px 2.2rem;
   }
 }
 .admin-bar.stick-top .header-version-1 .header-top, .admin-bar.stick-main .header-version-1 .header-main {
@@ -3208,7 +3209,7 @@ textarea {
 
 /* Buttons */
 .il_btn {
-  padding: 11px 4rem;
+  padding: 12px 4rem;
   text-decoration: none;
   color: #fff;
   display: inline-flex;
@@ -3229,7 +3230,7 @@ textarea {
 }
 
 a.il_btn {
-  padding: 11px 4rem;
+  padding: 12px 4rem;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -4784,6 +4785,7 @@ a.il_btn {
   }
 }
 .il_hero .il_btn {
+  padding: 11px 4rem;
   display: inline-flex;
   color: #fff;
   text-decoration: none;
@@ -5536,6 +5538,7 @@ a.il_btn {
   }
 }
 .il_mi_section.style-1 .il_btn {
+  padding: 11px 2.5rem;
   display: inline-flex;
   color: #fff;
   text-decoration: none;
@@ -5554,6 +5557,7 @@ a.il_btn {
 }
 .il_mi_section.style-1 .il_btn:nth-child(2) {
   border: 1px solid #fff;
+  height: 47px;
 }
 .il_mi_section.style-1 .il_btn:nth-child(2):after {
   content: url(../../../assets/icons/btn-right-arrow.svg);
@@ -6180,6 +6184,7 @@ a.il_btn {
 }
 .il_section.style-3 .il_section_inner .left .il_btn {
   margin-top: 1rem;
+  padding: 13px 2.5rem;
   display: inline-flex;
   color: #fff;
   text-decoration: none;

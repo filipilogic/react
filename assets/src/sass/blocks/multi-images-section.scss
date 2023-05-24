@@ -43,7 +43,7 @@
     }
   }
   .il_btn {
-    // padding: 1.4rem 2.5rem;
+    padding: 11px 2.5rem;
     display: inline-flex;
     color: #fff;
     text-decoration: none;
@@ -59,6 +59,7 @@
     }
     &:nth-child(2) {
       border: 1px solid #fff;
+      height:47px;
       &:after {
         content: url( ../../../assets/icons/btn-right-arrow.svg);
         width: 24px;
