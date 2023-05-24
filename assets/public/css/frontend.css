@@ -515,7 +515,6 @@ div.margin-xl {
 }
 .blog .il_blog_post .il_bp_left .il_btn, .archive .il_blog_post .il_bp_left .il_btn {
   margin: 3.5rem auto 0 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1181,8 +1180,6 @@ figure img {
   }
   .header-version-1 .header-top .il_btn {
     line-height: 1;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
   }
   .header-version-1 .header-top div {
     width: 100%;
@@ -3217,6 +3214,7 @@ textarea {
   color: #fff;
   display: inline-flex;
   border-radius: 8px;
+  height: 41px;
 }
 .il_btn:first-child {
   background-color: var(--color-1);
@@ -3236,6 +3234,7 @@ a.il_btn {
   font-weight: 700;
   font-size: 18px;
   font-family: "Font Primary";
+  height: 41px;
 }
 
 .il_block_intro.left, .section.left {
@@ -4786,7 +4785,6 @@ a.il_btn {
   }
 }
 .il_hero .il_btn {
-  padding: 1rem 4rem;
   display: inline-flex;
   color: #fff;
   text-decoration: none;
@@ -5539,7 +5537,6 @@ a.il_btn {
   }
 }
 .il_mi_section.style-1 .il_btn {
-  padding: 1.4rem 2.5rem;
   display: inline-flex;
   color: #fff;
   text-decoration: none;
@@ -6029,7 +6026,6 @@ a.il_btn {
   margin-bottom: 3rem;
 }
 .il_section.style-1 .il_btn {
-  padding: 1rem 2rem;
   display: inline-flex;
   color: #fff;
   text-decoration: none;
@@ -6058,7 +6054,6 @@ a.il_btn {
   margin-bottom: 3rem;
 }
 .il_section.style-2 .il_btn {
-  padding: 10px 40px;
   display: inline-flex;
   color: #fff;
   text-decoration: none;
@@ -6186,7 +6181,6 @@ a.il_btn {
 }
 .il_section.style-3 .il_section_inner .left .il_btn {
   margin-top: 1rem;
-  padding: 1.4rem 2.5rem;
   display: inline-flex;
   color: #fff;
   text-decoration: none;
