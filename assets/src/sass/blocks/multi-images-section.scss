@@ -367,7 +367,7 @@
         }
       }
     }
-    @include tab-max {
+    @include limbo-max {
       &.stack-mobile-reverse {
         > div {
           flex-basis: 100%;

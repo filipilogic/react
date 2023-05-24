@@ -5889,7 +5889,7 @@ a.il_btn {
     order: 2;
   }
 }
-@media (max-width: 797.5px) {
+@media (max-width: 1199.5px) {
   .il_mi_section_inner.ib-right.stack-mobile-reverse > div {
     flex-basis: 100%;
   }
