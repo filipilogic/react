@@ -4,10 +4,10 @@ html {
     font-size: 8px;
   }
   @include sm-desk-only { //1200 -1360
-    font-size: 8px;
+    font-size: 10px;
   }
   @include limbo-only { // 798 - 1200
-    font-size: 7px;
+    font-size: 10px;
   }
   @include tab-only { // 480 - 798
     font-size: 6px;
