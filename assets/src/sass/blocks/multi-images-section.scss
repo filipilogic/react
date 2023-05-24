@@ -320,6 +320,9 @@
   align-items: center;
   > div {
     flex: 47% 0 0;
+    @include limbo-only {
+      flex:100% 0 0;
+    }
   }
   @include limbo-max {
     &.stack-tablet-reverse {
@@ -367,7 +370,7 @@
         }
       }
     }
-    @include limbo-max {
+    @include tab-max {
       &.stack-mobile-reverse {
         > div {
           flex-basis: 100%;

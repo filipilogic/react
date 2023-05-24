@@ -2776,6 +2776,11 @@ a.il_btn {
 .il_mi_section_inner > div {
   flex: 47% 0 0;
 }
+@media (min-width: 797.6px) and (max-width: 1199.5px) {
+  .il_mi_section_inner > div {
+    flex: 100% 0 0;
+  }
+}
 @media (max-width: 1199.5px) {
   .il_mi_section_inner.stack-tablet-reverse > div {
     flex-basis: 100%;
@@ -2815,7 +2820,7 @@ a.il_btn {
     order: 2;
   }
 }
-@media (max-width: 1199.5px) {
+@media (max-width: 797.5px) {
   .il_mi_section_inner.ib-right.stack-mobile-reverse > div {
     flex-basis: 100%;
   }
