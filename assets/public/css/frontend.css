@@ -1122,7 +1122,7 @@ figure img {
   background: #fff;
 }
 .sticky .logo-wrap img {
-  content: url("../../../assets/icons/sheba-logo-dark.png");
+  content: url("../../../assets/icons/react-logo-blue.svg");
   transition: var(--theme-transition);
 }
 .sticky .container.header-main-inner, .sticky .header-main-inner.il-countdown-wrapper {
