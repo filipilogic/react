@@ -1774,7 +1774,7 @@ a.il_btn {
 }
 @media (max-width: 479.5px) {
   .il_hero.fit-content.upcoming-event .intro_title {
-    font-size: 3.2rem;
+    font-size: 32px;
     line-height: 120%;
     max-width: 340px;
     margin: 0 auto;
@@ -1793,7 +1793,7 @@ a.il_btn {
 }
 @media (max-width: 479.5px) {
   .il_hero.fit-content.upcoming-event .intro_subtitle {
-    font-size: 3rem;
+    font-size: 30px;
     line-height: 1.2;
   }
 }
