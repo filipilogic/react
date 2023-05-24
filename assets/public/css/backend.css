@@ -786,7 +786,7 @@ a.il_btn {
   }
 }
 .il_columns.attend-style .il_columns_inner .column .intro_title {
-  font-size: 4.4rem;
+  font-size: 3.6rem;
   line-height: 1.2;
   margin-bottom: 6px;
   font-weight: 600;
@@ -3717,7 +3717,7 @@ html {
 }
 @media (min-width: 1360.6px) and (max-width: 1659.5px) {
   html {
-    font-size: 8px;
+    font-size: 10px;
   }
 }
 @media (min-width: 1199.6px) and (max-width: 1360.5px) {
