@@ -39,7 +39,7 @@
     width: 100%;
     object-fit: cover;
   }
-  @include tab-max {
+  @include limbo-max {
     .tab-cols-1 {
       .column {
         width: 100%;
