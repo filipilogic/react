@@ -3556,6 +3556,7 @@ a.il_btn {
   }
 }
 .il_agenda.agenda_style_2 .il_block_intro .intro_text p {
+  font-family: "Font Secondary";
   font-size: 18px;
   color: #fff;
   max-width: 900px;
@@ -3597,6 +3598,7 @@ a.il_btn {
   color: #fff;
   border: 1px solid #FFFFFF;
   border-radius: 20px;
+  font-weight: 700;
 }
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content {
   margin-top: 5rem;
