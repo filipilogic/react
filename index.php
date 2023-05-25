@@ -48,8 +48,13 @@ get_header();
 							if(count($post_categories)){ ?>
 								<div class="il_bp_post_category_wrapper">
 								<?php
-									foreach($post_categories as $post_category){?>
-										<span class="il_bp_post_category"><?php echo $post_category->name; ?></span>
+									foreach($post_categories as $post_category){
+										$cat_class = '';
+										 if($post_category->slug === 'speakers'){
+											$cat_class = 'speakers';
+										 }
+										?>
+										<span class="il_bp_post_category <?php echo $cat_class;?>"><?php echo $post_category->name; ?></span>
 							  <?php } ?>
 								</div>
 							<?php

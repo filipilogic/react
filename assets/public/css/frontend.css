@@ -252,7 +252,7 @@ div.margin-xl {
   color: var(--color-2);
   border: 1px solid var(--color-2);
 }
-.il_bp_post_category_wrapper .il_bp_post_category:nth-child(even) {
+.il_bp_post_category_wrapper .il_bp_post_category.speakers {
   color: var(--color-1);
   border: 1px solid var(--color-1);
 }
