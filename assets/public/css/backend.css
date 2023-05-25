@@ -729,9 +729,19 @@ a.il_btn {
     margin-top: 2rem;
   }
 }
+@media (max-width: 797.5px) {
+  .il_columns.speakers-style .il_columns_inner .column .intro_title {
+    font-size: 20px;
+  }
+}
 .il_columns.speakers-style .il_columns_inner .column .il_col_text p {
   color: #57585D;
   font-size: 1.8rem;
+}
+@media (max-width: 797.5px) {
+  .il_columns.speakers-style .il_columns_inner .column .il_col_text p {
+    font-size: 16px;
+  }
 }
 .il_columns.attend-style {
   padding-top: 10rem;
