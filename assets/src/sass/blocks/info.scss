@@ -39,6 +39,11 @@
         .intro_text{
             max-width: 1000px;
             margin: 0 auto;
+            p{
+                @include tab-max{
+                    font-size: 15px;
+                }
+            }
         }
 
     }

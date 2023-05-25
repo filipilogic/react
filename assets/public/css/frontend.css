@@ -623,10 +623,10 @@ div.margin-xl {
 }
 @media (max-width: 1199.5px) {
   .il_columns.cf7-section form input:not(.wpcf7-submit)::-moz-placeholder, .il_columns.cf7-section form select::-moz-placeholder, .il_columns.cf7-section form textarea::-moz-placeholder {
-    font-size: 16px;
+    font-size: 18px;
   }
   .il_columns.cf7-section form input:not(.wpcf7-submit), .il_columns.cf7-section form select, .il_columns.cf7-section form textarea, .il_columns.cf7-section form input:not(.wpcf7-submit)::placeholder, .il_columns.cf7-section form select::placeholder, .il_columns.cf7-section form textarea::placeholder {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 @media (max-width: 479.5px) {
@@ -3349,6 +3349,7 @@ a.il_btn {
 }
 .il_accordion-item .il_accordion-body p {
   font-size: 18px;
+  font-family: "Font Secondary";
 }
 @media (max-width: 1199.5px) {
   .il_accordion-item .il_accordion-body p {
@@ -3830,12 +3831,8 @@ a.il_btn {
   background: radial-gradient(97.14% 83.45% at 51.68% 52.34%, #144A9D 0%, #132051 100%);
 }
 .il_columns.attend-style .intro_title {
+  font-size: 4.4rem;
   font-weight: 600;
-}
-@media (min-width: 1199.6px) {
-  .il_columns.attend-style .intro_title {
-    font-size: 4.4rem;
-  }
 }
 @media (max-width: 1199.5px) {
   .il_columns.attend-style {
@@ -3882,6 +3879,11 @@ a.il_btn {
   margin-bottom: 6px;
   font-weight: 600;
 }
+@media (max-width: 479.5px) {
+  .il_columns.attend-style .il_columns_inner .column .intro_title {
+    font-size: 22px;
+  }
+}
 .il_columns.attend-style .il_columns_inner .column .il_col_text p {
   font-family: "Font Primary";
   color: #fff;
@@ -3891,14 +3893,9 @@ a.il_btn {
   max-width: 320px;
   margin: 0 auto;
 }
-@media (max-width: 1199.5px) {
+@media (max-width: 797.5px) {
   .il_columns.attend-style .il_columns_inner .column .il_col_text p {
-    font-size: 16px;
-  }
-}
-@media (max-width: 479.5px) {
-  .il_columns.attend-style .il_columns_inner .column .il_col_text p {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 @media (min-width: 1199.6px) {
@@ -4915,6 +4912,11 @@ a.il_btn {
 .il_info_block .il_block_intro .intro_text {
   max-width: 1000px;
   margin: 0 auto;
+}
+@media (max-width: 797.5px) {
+  .il_info_block .il_block_intro .intro_text p {
+    font-size: 15px;
+  }
 }
 
 .il_inner_hero-1 {

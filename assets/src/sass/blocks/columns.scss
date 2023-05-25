@@ -83,9 +83,7 @@
     padding-bottom: 12rem;
     background: radial-gradient(97.14% 83.45% at 51.68% 52.34%, #144A9D 0%, #132051 100%);
     .intro_title {
-      @include desk-min {
-        font-size: 4.4rem;
-      }
+      font-size: 4.4rem;
       font-weight: 600;
     }
     @include limbo-max {
@@ -129,6 +127,9 @@
           line-height: 1.2;
           margin-bottom: 6px;
           font-weight: 600;
+          @include mob-only{
+            font-size: 22px;
+          }
         }
 
         .il_col_text {
@@ -141,11 +142,8 @@
             line-height: 1.4;
             max-width: 320px;
             margin: 0 auto;
-            @include limbo-max {
-              font-size: 16px;
-            }
-            @include mob-only {
-              font-size: 15px;
+            @include tab-max {
+              font-size: 14px;
             }
           }
 
