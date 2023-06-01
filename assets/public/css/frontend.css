@@ -5963,9 +5963,9 @@ a.il_btn {
   margin-bottom: 0;
   padding-bottom: 3rem;
 }
-.il_section.il_past_events_section .il_past_events_section_posts article a span {
+.il_section.il_past_events_section .il_past_events_section_posts article a .entry_btn {
   display: block;
-  padding: 12px 40px;
+  padding: 10px 40px;
   background: #15BDA0;
   color: #fff;
   max-width: -moz-fit-content;

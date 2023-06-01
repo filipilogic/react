@@ -44,7 +44,7 @@ $description = get_field('past_events_description');
                                 <div class="entry-content">
                                    <p><?php echo  $event_excerpt['value'];?></p> 
                                 </div>
-                                <span>Learn more</span>
+                                <span class="entry_btn">Learn more</span>
                                
 
                             </a>
