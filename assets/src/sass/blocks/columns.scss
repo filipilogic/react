@@ -157,6 +157,7 @@
 
   &.community-style{
     @extend .attend-style;
+    z-index: 1;
 
     .il_block_bg {
       img {

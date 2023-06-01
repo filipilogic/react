@@ -817,6 +817,9 @@ a.il_btn {
     font-size: 14px;
   }
 }
+.il_columns.community-style {
+  z-index: 1;
+}
 .il_columns.community-style .il_block_bg img {
   width: 100%;
   height: 100%;
@@ -3771,6 +3774,11 @@ a.il_btn {
   background: none;
   max-width: 100%;
   width: 100%;
+}
+.il_video_section .il_video_home .il_section_inner {
+  margin-bottom: -6rem;
+  z-index: 2;
+  position: relative;
 }
 
 html {
