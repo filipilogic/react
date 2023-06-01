@@ -155,6 +155,92 @@
 
   }
 
+  &.community-style{
+    @extend .attend-style;
+
+    .il_block_bg {
+      img {
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+      }
+    }
+    .il_block_intro {
+      .intro_title {
+        text-transform: uppercase;
+        max-width: 530px;
+        margin: 0 auto 2.4rem;
+      }
+      .intro_text{
+        p{
+          font-family: "Font Secondary";
+          max-width: 530px;
+          margin: 0 auto 4.8rem;
+        }
+        h3{
+          color: #EA3E85;
+          font-size: 3.6rem;
+          font-weight: 600;
+        }
+      }
+    }
+  
+    .il_columns_inner{
+      padding-top: 3.6rem;
+      .column{
+        .intro_title {
+          font-size:2.4rem;
+          font-weight: 600;
+        }
+        .il_col_text{
+          p{
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .buttons{
+      display: flex;
+      justify-content: center;
+      padding-top: 8rem;
+
+      @include mob-only{
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .il_btn{
+        border: 1px solid #15BDA0;
+        padding: 10.5px 4rem;
+
+        @include mob-only{
+          width: fit-content;
+        }
+
+        &:nth-child(1){
+          background: #15BDA0;
+          @include mob-only{
+            margin-bottom: 16px;
+          }
+        }
+
+        &:nth-child(2){
+          border: 1px solid #fff;
+          margin-right: 0;
+          &:after {
+            content: url(../../../assets/icons/btn-right-arrow.svg);
+            width: 24px;
+            height: 24px;
+            margin-left: 1.5rem;
+          }
+        }
+
+      }
+
+    }
+  }
+
   &.attend-rc {
     @include desk-min {
       padding-top: 16.5rem;

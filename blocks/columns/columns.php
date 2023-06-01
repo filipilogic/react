@@ -70,5 +70,6 @@ if ( ! empty( $padding) ) {
                 <?php endwhile;
             endif; ?>
         </div>
+        <?php  get_template_part('components/buttons'); ?>
 	</div>
 </div>
