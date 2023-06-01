@@ -39,6 +39,7 @@
                 background: #FFFFFF;
                 border-radius: 26px;
                 box-shadow: 10px -3.77px 65.5759px rgba(119, 115, 170, 0.1);
+                padding-bottom: 3.6rem;
                 @include tab-max{
                     flex:100%;
                     padding-bottom: 3rem;
@@ -67,6 +68,17 @@
                             margin-bottom: 0;
                             padding-bottom: 3rem;
                         }
+                    }
+
+                    span{
+                        display: block;
+                        padding: 12px 40px;
+                        background: #15BDA0;
+                        color:#fff;
+                        max-width: fit-content;
+                        border-radius: 8px;
+                        margin-left: 3.2rem;
+                     
                     }
                 }
             }

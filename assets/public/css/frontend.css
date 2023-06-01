@@ -5928,6 +5928,7 @@ a.il_btn {
   background: #FFFFFF;
   border-radius: 26px;
   box-shadow: 10px -3.77px 65.5759px rgba(119, 115, 170, 0.1);
+  padding-bottom: 3.6rem;
 }
 @media (max-width: 797.5px) {
   .il_section.il_past_events_section .il_past_events_section_posts article {
@@ -5960,6 +5961,16 @@ a.il_btn {
 .il_section.il_past_events_section .il_past_events_section_posts article a .entry-content p {
   margin-bottom: 0;
   padding-bottom: 3rem;
+}
+.il_section.il_past_events_section .il_past_events_section_posts article a span {
+  display: block;
+  padding: 12px 40px;
+  background: #15BDA0;
+  color: #fff;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  border-radius: 8px;
+  margin-left: 3.2rem;
 }
 @media (min-width: 1199.6px) {
   .il_section.il_past_events_section:after {
