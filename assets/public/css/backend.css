@@ -3775,7 +3775,7 @@ a.il_btn {
   max-width: 100%;
   width: 100%;
 }
-.il_video_section .il_video_home .il_section_inner {
+.il_video_section.il_video_home .il_section_inner {
   margin-bottom: -6rem;
   z-index: 2;
   position: relative;
