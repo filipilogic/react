@@ -6218,6 +6218,7 @@ a.il_btn {
   .il_section.hp-what-is-react .il_block_bg img {
     width: -moz-fit-content;
     width: fit-content;
+    height: 75%;
   }
   .il_section.hp-what-is-react .il_section_inner {
     align-items: center;
@@ -6685,6 +6686,30 @@ a.il_btn {
   font-size: 4.4rem;
   line-height: 1.26;
   margin-bottom: 2.7rem;
+}
+.il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges {
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 797.6px) and (max-width: 1199.5px) {
+  .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges {
+    justify-content: center;
+  }
+}
+@media (max-width: 797.5px) {
+  .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 797.5px) {
+  .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges img {
+    width: calc(20% - 16px);
+  }
+}
+@media (min-width: 797.6px) and (max-width: 1199.5px) {
+  .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges img:not(:last-of-type) {
+    margin-right: 20px;
+  }
 }
 .il_video_section .il_section_inner .right {
   display: flex;

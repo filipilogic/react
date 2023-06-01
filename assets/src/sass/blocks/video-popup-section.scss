@@ -28,6 +28,34 @@
           line-height: 1.26;
           margin-bottom: 2.7rem;
         }
+        .il_section_text{
+          .il_sheba_best_badges{
+            display: flex;
+            justify-content: space-between;
+
+            @include limbo-only{
+              justify-content: center;
+            }
+
+            @include tab-max{
+              padding-bottom: 30px;
+            }
+
+            img{
+              @include tab-max{
+                width: calc(20% - 16px);
+              }
+            }
+
+            img:not(:last-of-type){
+              @include limbo-only{
+                margin-right: 20px;
+              }
+              
+            }
+          }
+
+        }
 
       }
 
