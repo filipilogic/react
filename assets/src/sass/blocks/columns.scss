@@ -123,6 +123,10 @@
           }
         }
 
+        @include mob-only{
+          margin-bottom: 50px;
+        }
+
         .intro_title {
           font-size: 3.6rem;
           line-height: 1.2;
