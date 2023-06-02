@@ -3886,7 +3886,7 @@ a.il_btn {
     z-index: -1;
     margin-right: -8%;
     bottom: 25px;
-    right: 70px;
+    right: -70px;
   }
 }
 @media (max-width: 1199.5px) {
