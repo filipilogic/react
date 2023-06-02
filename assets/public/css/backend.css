@@ -3425,6 +3425,7 @@ a.il_btn {
 .team .il_team_row .member_text {
   position: relative;
   display: none;
+  box-shadow: 10px -3.77px 65.5759px rgba(119, 115, 170, 0.1);
   transition: var(--theme-transiton);
   border-radius: 20px;
   background-color: #fff;

@@ -111,6 +111,15 @@
     .member_text {
       position: relative;
       display: none;
+      box-shadow: 10px -3.77px 65.5759px rgba(119, 115, 170, 0.1);
+      transition: var(--theme-transiton);
+      border-radius: 20px;
+      background-color:#fff;
+      background-image: url( ../../../assets/icons/team-background.png);
+      background-repeat: no-repeat;
+      background-size: 35%;
+      background-position: left bottom;
+      padding:var(--b-space-2);
 
       @media (max-width: 600px){
         padding:45px;
@@ -191,14 +200,7 @@
         }
       }
     
-      transition: var(--theme-transiton);
-      border-radius: 20px;
-      background-color:#fff;
-      background-image: url( ../../../assets/icons/team-background.png);
-      background-repeat: no-repeat;
-      background-size: 35%;
-      background-position: left bottom;
-      padding:var(--b-space-2);
+
     }
   
     @include tab-min {
