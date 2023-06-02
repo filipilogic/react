@@ -5527,8 +5527,6 @@ a.il_btn {
 .il_mi_section.style-1 {
   margin-top: -6rem;
   z-index: 1;
-  padding-top: 18rem;
-  padding-bottom: 6rem;
   overflow: hidden;
 }
 @media (min-width: 1199.6px) {
