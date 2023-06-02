@@ -297,6 +297,34 @@
             "layout": "block",
             "prefix_label": 0,
             "prefix_name": 0
+        },
+        {
+            "key": "field_6479c4214b9ce",
+            "label": "Style",
+            "name": "columns_style",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "attend": "Attend Style",
+                "community": "Community Style",
+                "benefits": "Benefits Style",
+                "speakers": "Speakers Style"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
         }
     ],
     "location": [
@@ -317,5 +345,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1685625373
+    "modified": 1685702894
 }

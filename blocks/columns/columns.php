@@ -7,13 +7,14 @@ $team_layout = get_field_object('layout');
 $margin = get_field_object('margin');
 $padding = get_field_object('padding');
 
+$block_style = get_field('columns_style');
 
 $anchor = '';
 if ( ! empty( $block['anchor'] ) ) {
     $anchor = 'id="' . esc_attr( $block['anchor'] ) . '" ';
 }
 
-$class = 'il_block il_columns';
+$class = 'il_block il_columns '.$block_style.'-style';
 if ( ! empty( $block['className'] ) ) {
     $class .= ' ' . $block['className'];
 }
