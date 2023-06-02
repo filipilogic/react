@@ -6585,6 +6585,11 @@ a.il_btn {
   max-width: 530px;
   display: block;
 }
+@media (max-width: 797.5px) {
+  .team .il_team_row .member_text_inner_right .member_box_position {
+    font-size: 16px;
+  }
+}
 .team .il_team_row .member_text_inner_right .member_box_description {
   padding-top: 3.6rem;
 }
@@ -6593,6 +6598,11 @@ a.il_btn {
   font-weight: 400;
   font-size: 1.8rem;
   color: #27282E;
+}
+@media (max-width: 797.5px) {
+  .team .il_team_row .member_text_inner_right .member_box_description p {
+    font-size: 16px;
+  }
 }
 .team .il_team_row .member_text .close {
   position: absolute;

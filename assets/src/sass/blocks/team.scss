@@ -173,6 +173,9 @@
               color: #EA3E85;
               max-width: 530px;
               display: block;
+              @include tab-max{
+                font-size: 16px;
+              }
             }
             &_description{
               padding-top: 3.6rem;
@@ -181,6 +184,9 @@
                 font-weight: 400;
                 font-size: 1.8rem;
                 color: #27282E;
+                @include tab-max{
+                  font-size: 16px;
+                }
               }
             }
           }
