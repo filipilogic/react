@@ -9,12 +9,18 @@ $padding = get_field_object('padding');
 
 $block_style = get_field('columns_style');
 
+if ($block_style !== "none"){
+    $style = $block_style.'-style';
+}else{
+    $style = '';
+}
+
 $anchor = '';
 if ( ! empty( $block['anchor'] ) ) {
     $anchor = 'id="' . esc_attr( $block['anchor'] ) . '" ';
 }
 
-$class = 'il_block il_columns '.$block_style.'-style';
+$class = 'il_block il_columns '.$style;
 if ( ! empty( $block['className'] ) ) {
     $class .= ' ' . $block['className'];
 }

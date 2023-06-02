@@ -313,6 +313,7 @@
                 "id": ""
             },
             "choices": {
+                "none": "No Style",
                 "attend": "Attend Style",
                 "community": "Community Style",
                 "benefits": "Benefits Style",
@@ -345,5 +346,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1685702894
+    "modified": 1685703233
 }
