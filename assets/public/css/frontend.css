@@ -6401,7 +6401,7 @@ a.il_btn {
   background: #FFFFFF;
   border-radius: 20px;
   margin-bottom: 4.8rem;
-  padding: 4.5rem;
+  padding: 3.3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6417,7 +6417,7 @@ a.il_btn {
 @media (max-width: 1060px) {
   .team .il_team_row .il_team_member {
     flex: calc(50% - 40px) 0 0;
-    padding: 4rem;
+    padding: 3.3rem;
   }
 }
 @media (max-width: 860px) {
