@@ -102,6 +102,9 @@
         color:#fff;
         font-size: 1.8rem;
         max-width: fit-content;
+        @include mob-only{
+          font-size: 16px;
+        }
       }
       &:hover {
         cursor: pointer;

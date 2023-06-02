@@ -3869,6 +3869,9 @@ a.il_btn {
   }
 }
 @media (max-width: 1199.5px) {
+  .il_columns.attend-style .il_columns_inner .column, .il_columns.community-style .il_columns_inner .column {
+    margin-bottom: 6%;
+  }
   .il_columns.attend-style .il_columns_inner .column img, .il_columns.community-style .il_columns_inner .column img {
     margin-bottom: 1rem;
   }
@@ -6499,6 +6502,11 @@ a.il_btn {
   font-size: 1.8rem;
   max-width: -moz-fit-content;
   max-width: fit-content;
+}
+@media (max-width: 479.5px) {
+  .team .il_team_row .il_team_member .member_button {
+    font-size: 16px;
+  }
 }
 .team .il_team_row .il_team_member:hover {
   cursor: pointer;
