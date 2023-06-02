@@ -3,8 +3,36 @@
   z-index: 1;
   padding-top: 18rem;
   padding-bottom: 6rem;
-  background: radial-gradient(44.49% 38.22% at 51.02% 42.43%, #144A9D 0%, #132051 100%);
   overflow: hidden;
+
+  @include desk-min {
+    border-radius: 20px;
+    margin-top: -4.5rem;
+    margin-bottom: -8rem;
+    &:after {
+      content:'';
+      background: url("../../../assets/icons/what-background.png");
+      background-position: top right;
+      background-repeat: no-repeat;
+      position: absolute;
+      width: 50%;
+      height: 100%;
+      top: 0;
+      left:50%;
+      z-index: -1;
+
+      @media (min-width: 1360px) and (max-width: 1500px) {
+        left:60%;
+      }
+
+      @media (min-width: 1200px) and (max-width: 1360px) {
+        width: 60%;
+        left:60%;
+      }
+    }
+  }
+
+
   .il_block_bg {
     width: var(--site-width);
     max-width: var(--site-max-width);
@@ -35,7 +63,7 @@
     margin-bottom: 2.5rem;
   }
   .il_section_text {
-    color: #fff;
+    color: #27282E;
     margin-bottom: 3rem;
     @include limbo-max {
       margin-top: 5rem;
@@ -114,6 +142,16 @@
         margin: 1.2em 0 auto 0;
       }
     }
+
+    .column{
+      figure{
+        @include limbo-max{
+          object-fit: cover;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
   }
 }
 
@@ -132,7 +170,7 @@
   }
   .il_mi_section_inner {
     position: relative;
-    background: url(/wp-content/uploads/2023/05/Community-2-1.png), #fff;
+    background: transparent;
     background-repeat: no-repeat;
     background-position: right 53%;
     align-items: flex-start;
@@ -145,28 +183,7 @@
       padding: 8rem 0 3rem 0;
       width: 100%;
     }
-    @include desk-min {
-      border-radius: 20px;
-      margin-top: -4.5rem;
-      margin-bottom: -8rem;
-      &:after {
-        content: '';
-        background: url("../../../assets/icons/leaderhip_community_bg_after.png");
-        background-size: cover;
-        position: absolute;
-        width: 39.3rem;
-        height: 32.5rem;
-        top: -8rem;
-        right: -11rem;
-        z-index: -1;
-        @include sm-desk-only {
-          right: -5%;
-        }
-        @include md-desk-only {
-          right: -5%;
-        }
-      }
-    }
+
   }
   .il_section_title {
     @include desk-min {

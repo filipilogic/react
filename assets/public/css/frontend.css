@@ -5529,8 +5529,37 @@ a.il_btn {
   z-index: 1;
   padding-top: 18rem;
   padding-bottom: 6rem;
-  background: radial-gradient(44.49% 38.22% at 51.02% 42.43%, #144A9D 0%, #132051 100%);
   overflow: hidden;
+}
+@media (min-width: 1199.6px) {
+  .il_mi_section.style-1 {
+    border-radius: 20px;
+    margin-top: -4.5rem;
+    margin-bottom: -8rem;
+  }
+  .il_mi_section.style-1:after {
+    content: "";
+    background: url("../../../assets/icons/what-background.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    z-index: -1;
+  }
+}
+@media (min-width: 1199.6px) and (min-width: 1360px) and (max-width: 1500px) {
+  .il_mi_section.style-1:after {
+    left: 60%;
+  }
+}
+@media (min-width: 1199.6px) and (min-width: 1200px) and (max-width: 1360px) {
+  .il_mi_section.style-1:after {
+    width: 60%;
+    left: 60%;
+  }
 }
 .il_mi_section.style-1 .il_block_bg {
   width: var(--site-width);
@@ -5566,7 +5595,7 @@ a.il_btn {
   margin-bottom: 2.5rem;
 }
 .il_mi_section.style-1 .il_section_text {
-  color: #fff;
+  color: #27282E;
   margin-bottom: 3rem;
 }
 @media (max-width: 1199.5px) {
@@ -5653,6 +5682,14 @@ a.il_btn {
 .il_mi_section.style-1 .right .column:nth-child(4) .il_mi_gallery-item {
   margin: 1.2em 0 auto 0;
 }
+@media (max-width: 1199.5px) {
+  .il_mi_section.style-1 .right .column figure {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+}
 
 @media (max-width: 1199.5px) {
   .il_mi_section.style-2 {
@@ -5670,7 +5707,7 @@ a.il_btn {
 }
 .il_mi_section.style-2 .il_mi_section_inner {
   position: relative;
-  background: url(/wp-content/uploads/2023/05/Community-2-1.png), #fff;
+  background: transparent;
   background-repeat: no-repeat;
   background-position: right 53%;
   align-items: flex-start;
@@ -5686,34 +5723,6 @@ a.il_btn {
   .il_mi_section.style-2 .il_mi_section_inner {
     padding: 8rem 0 3rem 0;
     width: 100%;
-  }
-}
-@media (min-width: 1199.6px) {
-  .il_mi_section.style-2 .il_mi_section_inner {
-    border-radius: 20px;
-    margin-top: -4.5rem;
-    margin-bottom: -8rem;
-  }
-  .il_mi_section.style-2 .il_mi_section_inner:after {
-    content: "";
-    background: url("../../../assets/icons/leaderhip_community_bg_after.png");
-    background-size: cover;
-    position: absolute;
-    width: 39.3rem;
-    height: 32.5rem;
-    top: -8rem;
-    right: -11rem;
-    z-index: -1;
-  }
-}
-@media (min-width: 1199.6px) and (min-width: 1199.6px) and (max-width: 1360.5px) {
-  .il_mi_section.style-2 .il_mi_section_inner:after {
-    right: -5%;
-  }
-}
-@media (min-width: 1199.6px) and (min-width: 1360.6px) and (max-width: 1659.5px) {
-  .il_mi_section.style-2 .il_mi_section_inner:after {
-    right: -5%;
   }
 }
 .il_mi_section.style-2 .il_section_title {
