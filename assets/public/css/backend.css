@@ -2628,6 +2628,8 @@ a.il_btn {
   background-repeat: no-repeat;
   background-position: right 53%;
   align-items: flex-start;
+  background: #FFFFFF;
+  box-shadow: 10px -3.77px 65.5759px rgba(119, 115, 170, 0.1);
   padding: 7rem 5.4rem 3rem 5.4rem;
 }
 @media (max-width: 1199.5px) {
@@ -2640,6 +2642,34 @@ a.il_btn {
   .il_mi_section.style-2 .il_mi_section_inner {
     padding: 8rem 0 3rem 0;
     width: 100%;
+  }
+}
+@media (min-width: 1199.6px) {
+  .il_mi_section.style-2 .il_mi_section_inner {
+    border-radius: 20px;
+    margin-top: -4.5rem;
+    margin-bottom: -8rem;
+  }
+  .il_mi_section.style-2 .il_mi_section_inner:after {
+    content: "";
+    background: url("../../../assets/icons/leaderhip_community_bg_after.png");
+    background-size: cover;
+    position: absolute;
+    width: 39.3rem;
+    height: 32.5rem;
+    top: -8rem;
+    right: -11rem;
+    z-index: -1;
+  }
+}
+@media (min-width: 1199.6px) and (min-width: 1199.6px) and (max-width: 1360.5px) {
+  .il_mi_section.style-2 .il_mi_section_inner:after {
+    right: -5%;
+  }
+}
+@media (min-width: 1199.6px) and (min-width: 1360.6px) and (max-width: 1659.5px) {
+  .il_mi_section.style-2 .il_mi_section_inner:after {
+    right: -5%;
   }
 }
 .il_mi_section.style-2 .il_section_title {
