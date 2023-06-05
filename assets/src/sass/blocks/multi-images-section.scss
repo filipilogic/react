@@ -67,10 +67,15 @@
   }
   .il_section_text {
     color: #27282E;
-    margin-bottom: 3rem;
+    margin-bottom: 0;
     @include limbo-max {
       margin-top: 5rem;
       margin-bottom: 5rem;
+    }
+    p{
+      &:last-of-type{
+        margin-bottom: 0;
+      }
     }
   }
   .il_btn {
