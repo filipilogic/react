@@ -32,6 +32,9 @@
     }
   }
 
+  .il_mi_section_inner {
+    align-items: flex-start;
+  }
 
   .il_block_bg {
     width: var(--site-width);
@@ -152,6 +155,9 @@
         }
       }
     }
+  }
+  .info_box_2{
+    flex:100% 0 0;
   }
 }
 

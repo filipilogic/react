@@ -5559,6 +5559,9 @@ a.il_btn {
     left: 60%;
   }
 }
+.il_mi_section.style-1 .il_mi_section_inner {
+  align-items: flex-start;
+}
 .il_mi_section.style-1 .il_block_bg {
   width: var(--site-width);
   max-width: var(--site-max-width);
@@ -5687,6 +5690,9 @@ a.il_btn {
     width: 100%;
     height: auto;
   }
+}
+.il_mi_section.style-1 .info_box_2 {
+  flex: 100% 0 0;
 }
 
 @media (max-width: 1199.5px) {
