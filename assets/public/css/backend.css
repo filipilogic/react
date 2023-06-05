@@ -2567,7 +2567,7 @@ a.il_btn {
 }
 @media (max-width: 1199.5px) {
   .il_mi_section.style-1 .left {
-    margin-bottom: 9rem;
+    margin-bottom: 0rem;
   }
 }
 .il_mi_section.style-1 .right {
