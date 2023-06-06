@@ -4073,6 +4073,11 @@ a.il_btn {
     right: -5%;
   }
 }
+.il_columns.buttons-center .buttons {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+}
 
 .il-countdown {
   display: flex;
