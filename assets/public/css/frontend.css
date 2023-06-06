@@ -5688,6 +5688,9 @@ a.il_btn {
 .il_mi_section.style-1 .right .column:nth-child(4) .il_mi_gallery-item {
   margin: 1.2em 0 auto 0;
 }
+.il_mi_section.style-1 .right .column figure {
+  width: 100%;
+}
 @media (max-width: 1199.5px) {
   .il_mi_section.style-1 .right .column figure {
     -o-object-fit: cover;

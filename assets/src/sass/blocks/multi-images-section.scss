@@ -153,6 +153,7 @@
 
     .column{
       figure{
+        width: 100%;
         @include limbo-max{
           object-fit: cover;
           width: 100%;
