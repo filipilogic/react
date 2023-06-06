@@ -91,3 +91,19 @@ div {
     display: none;
   }
 }
+
+.negative-bttn-wrapper{
+	background:#132051;
+	margin-top: -105px;
+  z-index: 9999;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+
+@media only screen and (max-width:  797.5px) {
+	.negative-bttn-wrapper{
+		margin-top:-50px;
+		padding-bottom:30px;
+	}
+}

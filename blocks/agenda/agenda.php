@@ -50,8 +50,9 @@ if($agenda_style !== 'style-2' ){
 				<ul>
 			<?php while( have_rows('agenda_tabs') ) : the_row();
 				$title = get_sub_field('agenda_tab_title');
+				$count_rows = count(get_field('agenda_tabs'));
 			?>
-				<li><a data-tab = "<?php echo $item; ?>" href="#"><?php echo $title; ?></a></li>
+				<li><a <?php echo $count_rows === 1 ? 'style="cursor: default;"' : '';?> data-tab = "<?php echo $item; ?>" href="#"><?php echo $title; ?></a></li>
 				<?php $item++;?>
 			<?php endwhile; ?>
 			</ul>
