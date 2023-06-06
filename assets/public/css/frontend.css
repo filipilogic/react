@@ -4092,6 +4092,28 @@ a.il_btn {
   justify-content: center;
   padding-top: 8rem;
 }
+.il_columns.banner-section {
+  padding: 85px 0;
+}
+.il_columns.banner-section .container, .il_columns.banner-section .il-countdown-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.il_columns.banner-section .container h2, .il_columns.banner-section .il-countdown-wrapper h2 {
+  font-weight: 600;
+  font-size: 5.6rem;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+.il_columns.banner-section .container .buttons a, .il_columns.banner-section .il-countdown-wrapper .buttons a {
+  background-color: #15BDA0;
+  border: 2px solid #15BDA0;
+  margin-left: 24px;
+  margin-top: 20px;
+  padding: 11px 4rem;
+}
 
 .il-countdown {
   display: flex;

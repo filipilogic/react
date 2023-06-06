@@ -341,4 +341,29 @@
     }
   }
 
+  &.banner-section{
+    padding:85px 0;
+    .container{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      align-items:center;
+      h2{
+        font-weight: 600;
+        font-size: 5.6rem;
+        margin-bottom:0;
+        margin-top:20px;
+      }
+      .buttons{
+        a{
+          background-color:#15BDA0;
+          border: 2px solid #15BDA0;
+          margin-left:24px;
+          margin-top:20px;
+          padding: 11px  4rem
+        }
+      }
+    }
+  }
+
 }
