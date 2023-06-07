@@ -361,7 +361,10 @@
           margin-left:24px;
           margin-right: 24px;
           margin-top:20px;
-          padding: 11px  12rem;
+          padding: 20.5px  12rem;
+          @include tab-max{
+            padding: 11px  12rem;
+          }
         }
       }
     }

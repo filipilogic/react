@@ -4113,7 +4113,12 @@ a.il_btn {
   margin-left: 24px;
   margin-right: 24px;
   margin-top: 20px;
-  padding: 11px 12rem;
+  padding: 20.5px 12rem;
+}
+@media (max-width: 797.5px) {
+  .il_columns.banner-section .container .buttons a, .il_columns.banner-section .il-countdown-wrapper .buttons a {
+    padding: 11px 12rem;
+  }
 }
 
 .il-countdown {
