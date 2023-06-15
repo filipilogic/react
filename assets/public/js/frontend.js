@@ -29,20 +29,23 @@ jQuery(document).ready(function ($) {
       $(".menu-toggle").toggleClass('menu-open');
     }
   });
-  var urlParams = new URLSearchParams(window.location.search);
-  var paramName = urlParams.get('utm_source');
-  if (paramName === 'linkedin') {
-    $('.hero-din-btn .il_btn:first-of-type').attr('href', 'https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
-    $('.about-din-btn .il_btn').attr('href', 'https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
-    $('.agenda-din-btn a').attr('href', 'https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
-    $('.spot-din-btn .il_btn').attr('href', 'https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
-  }
-  if (paramName === 'facebook') {
-    $('.hero-din-btn .il_btn:first-of-type').attr('href', 'https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
-    $('.about-din-btn .il_btn').attr('href', 'https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
-    $('.agenda-din-btn a').attr('href', 'https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
-    $('.spot-din-btn .il_btn').attr('href', 'https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
-  }
+
+  // var urlParams = new URLSearchParams(window.location.search);
+  // var paramName = urlParams.get('utm_source');
+
+  // if(paramName === 'linkedin'){
+  //     $('.hero-din-btn .il_btn:first-of-type').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
+  //     $('.about-din-btn .il_btn').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
+  //     $('.agenda-din-btn a').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
+  //     $('.spot-din-btn .il_btn').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
+  // }
+
+  // if(paramName === 'facebook'){
+  //     $('.hero-din-btn .il_btn:first-of-type').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
+  //     $('.about-din-btn .il_btn').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
+  //     $('.agenda-din-btn a').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
+  //     $('.spot-din-btn .il_btn').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
+  // }
 
   // Technologies
   /*
