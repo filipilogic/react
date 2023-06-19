@@ -1788,6 +1788,11 @@ a.il_btn {
     align-items: center;
     width: 100%;
   }
+  .il_hero .buttons .il_btn {
+    min-width: 260px;
+    text-align: center;
+    display: inline-block;
+  }
 }
 .il_hero .il_btn {
   padding: 11px 4rem;
