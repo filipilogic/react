@@ -4914,6 +4914,12 @@ a.il_btn {
        object-position: bottom;
   }
 }
+@media (min-width: 479.6px) and (max-width: 797.5px) {
+  .il_hero.fit-content .il_block_bg img {
+    -o-object-position: top;
+       object-position: top;
+  }
+}
 @media (max-width: 479.5px) {
   .il_hero.fit-content .il_block_bg img {
     -o-object-position: bottom;

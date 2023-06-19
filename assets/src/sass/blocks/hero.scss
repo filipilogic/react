@@ -88,6 +88,9 @@
       @include limbo-max {
         object-position: bottom;
       }
+      @include tab-only{
+        object-position: top;
+      }
       @include mob-only{
         object-position: bottom;
       }
