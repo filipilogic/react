@@ -100,6 +100,13 @@
       padding-top: 23rem;
       padding-bottom: 12rem;
       position: relative;
+      @include desk-min{
+        min-height: 874px;
+      }
+      @include limbo-only {
+        min-height: 950px;
+      }
+
       @include limbo-max {
         padding-bottom: 17rem;
       }
@@ -134,34 +141,44 @@
         }
       }
       .upcoming-event-badge{
-        background: #2BB99B;
-        border-radius: 8px 8px 0px 0px;
-        padding: 2.1rem 2rem;
-        max-width: 260px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        padding: 22px;
+        min-width: 260px;
         position: absolute;
-        bottom:0;
-        right: 8%;
+        // bottom:0;
+        // right: 8%;
+        top:190px;
+        right: 50%;
+        transform: translateX(50%);
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @include limbo-only {
+          top:170px;
+        }
 
         @include tab-max{
-          right: 50%;
-          transform: translateX(50%);
+          min-width: 146px;
+          top:60px;
+          padding: 11px;
         }
 
         @include mob-only{
           bottom:auto;
-          top: 160px;
-          border-radius: 5px;
+          top: 120px;
         }
 
         span{
-          font-size: 2.4rem;
+          font-size: 26px;
           line-height: 1.5;
           color:#fff;
           text-transform: uppercase;
           font-weight: 800;
+
+          @include tab-max{
+            font-size: 14px;
+          }
         }
         svg{
           margin-left: 1.6rem;
