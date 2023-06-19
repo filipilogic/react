@@ -4992,7 +4992,7 @@ a.il_btn {
 .il_hero.fit-content.upcoming-event .upcoming-event-badge {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
-  padding: 22px;
+  padding: 22px 20px;
   min-width: 260px;
   position: absolute;
   top: 190px;
