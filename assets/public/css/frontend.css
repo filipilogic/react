@@ -4835,6 +4835,9 @@ a.il_btn {
 .il_hero .il_hero_inner div.buttons {
   margin-bottom: 0;
 }
+.il_hero .il_hero_inner div.buttons .il_btn {
+  padding: 15px 4rem;
+}
 .il_hero .intro_title {
   font-size: 9rem;
   line-height: 1;
