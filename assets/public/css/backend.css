@@ -1826,8 +1826,8 @@ a.il_btn {
 }
 @media (max-width: 1199.5px) {
   .il_hero.fit-content .il_block_bg img {
-    -o-object-position: 78%;
-       object-position: 78%;
+    -o-object-position: bottom;
+       object-position: bottom;
   }
 }
 @media (max-width: 479.5px) {

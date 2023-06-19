@@ -83,7 +83,7 @@
     .il_block_bg img {
       object-position: bottom right;
       @include limbo-max {
-        object-position: 78%;
+        object-position: bottom;
       }
       @include mob-only{
         object-position: bottom;
