@@ -85,6 +85,9 @@
       @include limbo-max {
         object-position: 78%;
       }
+      @include mob-only{
+        object-position: bottom;
+      }
     }
 
     &.upcoming-event {
