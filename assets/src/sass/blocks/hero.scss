@@ -84,7 +84,7 @@
     padding-top: 28rem;
     padding-bottom: 25rem;
     .il_block_bg img {
-      object-position: bottom;
+      object-position: top;
       @include limbo-max {
         object-position: bottom;
       }
