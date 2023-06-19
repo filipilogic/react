@@ -89,7 +89,7 @@
         object-position: bottom;
       }
       @include tab-only{
-        object-position: top;
+        object-position: center;
       }
       @include mob-only{
         object-position: bottom;
