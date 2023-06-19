@@ -4902,8 +4902,8 @@ a.il_btn {
   padding-bottom: 25rem;
 }
 .il_hero.fit-content .il_block_bg img {
-  -o-object-position: bottom right;
-     object-position: bottom right;
+  -o-object-position: bottom;
+     object-position: bottom;
 }
 @media (max-width: 1199.5px) {
   .il_hero.fit-content .il_block_bg img {
