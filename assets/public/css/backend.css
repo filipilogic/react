@@ -1918,7 +1918,7 @@ a.il_btn {
   .il_hero.fit-content.upcoming-event .intro_subtitle {
     font-size: 20px;
     line-height: 34px;
-    color: #10BF9C;
+    color: #10BF9C !important;
   }
 }
 .il_hero.fit-content.upcoming-event .upcoming-event-badge {
