@@ -15,6 +15,10 @@
         @include limbo-max {
           font-size: 3.5rem;
         }
+        @include mob-only{
+          font-size: 20px;
+          line-height: 34px;
+        }
       }
       &.buttons {
         margin-bottom: 0;

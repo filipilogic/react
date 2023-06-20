@@ -1751,6 +1751,12 @@ a.il_btn {
     font-size: 3.5rem;
   }
 }
+@media (max-width: 479.5px) {
+  .il_hero .il_hero_inner div p {
+    font-size: 20px;
+    line-height: 34px;
+  }
+}
 .il_hero .il_hero_inner div.buttons {
   margin-bottom: 0;
 }
