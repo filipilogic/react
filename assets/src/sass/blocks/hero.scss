@@ -146,9 +146,7 @@
         font-weight: 600;
         margin-top: 10px;
         margin-bottom: 4rem;
-        @include limbo-max {
-          font-size: 6rem;
-        }
+
         @include mob-only{
           font-size: 20px;
           line-height: 34px;

@@ -1909,11 +1909,6 @@ a.il_btn {
   margin-top: 10px;
   margin-bottom: 4rem;
 }
-@media (max-width: 1199.5px) {
-  .il_hero.fit-content.upcoming-event .intro_subtitle {
-    font-size: 6rem;
-  }
-}
 @media (max-width: 479.5px) {
   .il_hero.fit-content.upcoming-event .intro_subtitle {
     font-size: 20px;
