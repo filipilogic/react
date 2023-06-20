@@ -1737,6 +1737,11 @@ a.il_btn {
   flex-direction: column;
   text-align: center;
 }
+@media (max-width: 479.5px) {
+  .il_hero .il_hero_inner {
+    width: 100%;
+  }
+}
 .il_hero .il_hero_inner div {
   display: block;
   color: #fff;
