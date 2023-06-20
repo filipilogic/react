@@ -32,7 +32,7 @@
     font-size: 9rem;
     line-height: 1;
     color: var(--color-2);
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 0;
     @include limbo-max {
       font-size: 8rem;
@@ -41,6 +41,7 @@
     @include mob-only{
       font-size: 32px;
       line-height: 38px;
+      font-weight: 700;
     }
   }
   .intro_subtitle {
@@ -126,7 +127,14 @@
       }
 
       @include mob-only{
-        padding-top: 230px;
+        padding-top: 113px;
+        height:680px;
+      }
+
+      .il_hero_inner{
+        @include mob-only{
+          height: 100%;
+        }
       }
       .intro_title {
         font-size: 7rem;
@@ -138,7 +146,7 @@
           font-size: 32px;
           line-height: 120%;
           max-width: 340px;
-          margin:0 auto;
+          margin:20px auto 0;
         }
       }
       .intro_subtitle {
@@ -151,6 +159,8 @@
           font-size: 20px;
           line-height: 34px;
           color: #10BF9C !important;
+          flex-grow: 1;
+          margin-top: 0;
         }
       }
       .upcoming-event-badge{
@@ -177,7 +187,7 @@
 
         @include mob-only{
           bottom:auto;
-          top: 155px;
+          top: 70px;
         }
 
         span{
@@ -189,10 +199,15 @@
 
           @include tab-max{
             font-size: 14px;
+            line-height: 16px;
           }
         }
         svg{
           margin-left: 1.6rem;
+          @include tab-max{
+            width: 14.5px;
+            height: 14px;
+          }
         }
       }
       .buttons{

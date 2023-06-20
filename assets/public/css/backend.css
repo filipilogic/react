@@ -1767,7 +1767,7 @@ a.il_btn {
   font-size: 9rem;
   line-height: 1;
   color: var(--color-2);
-  font-weight: 400;
+  font-weight: 500;
   margin-bottom: 0;
 }
 @media (max-width: 1199.5px) {
@@ -1780,6 +1780,7 @@ a.il_btn {
   .il_hero .intro_title {
     font-size: 32px;
     line-height: 38px;
+    font-weight: 700;
   }
 }
 .il_hero .intro_subtitle {
@@ -1885,7 +1886,13 @@ a.il_btn {
 }
 @media (max-width: 479.5px) {
   .il_hero.fit-content.upcoming-event {
-    padding-top: 230px;
+    padding-top: 113px;
+    height: 680px;
+  }
+}
+@media (max-width: 479.5px) {
+  .il_hero.fit-content.upcoming-event .il_hero_inner {
+    height: 100%;
   }
 }
 .il_hero.fit-content.upcoming-event .intro_title {
@@ -1900,7 +1907,7 @@ a.il_btn {
     font-size: 32px;
     line-height: 120%;
     max-width: 340px;
-    margin: 0 auto;
+    margin: 20px auto 0;
   }
 }
 .il_hero.fit-content.upcoming-event .intro_subtitle {
@@ -1914,6 +1921,8 @@ a.il_btn {
     font-size: 20px;
     line-height: 34px;
     color: #10BF9C !important;
+    flex-grow: 1;
+    margin-top: 0;
   }
 }
 .il_hero.fit-content.upcoming-event .upcoming-event-badge {
@@ -1944,7 +1953,7 @@ a.il_btn {
 @media (max-width: 479.5px) {
   .il_hero.fit-content.upcoming-event .upcoming-event-badge {
     bottom: auto;
-    top: 155px;
+    top: 70px;
   }
 }
 .il_hero.fit-content.upcoming-event .upcoming-event-badge span {
@@ -1957,10 +1966,17 @@ a.il_btn {
 @media (max-width: 797.5px) {
   .il_hero.fit-content.upcoming-event .upcoming-event-badge span {
     font-size: 14px;
+    line-height: 16px;
   }
 }
 .il_hero.fit-content.upcoming-event .upcoming-event-badge svg {
   margin-left: 1.6rem;
+}
+@media (max-width: 797.5px) {
+  .il_hero.fit-content.upcoming-event .upcoming-event-badge svg {
+    width: 14.5px;
+    height: 14px;
+  }
 }
 @media (max-width: 479.5px) {
   .il_hero.fit-content.upcoming-event .buttons {
