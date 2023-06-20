@@ -4997,8 +4997,9 @@ a.il_btn {
 }
 @media (max-width: 479.5px) {
   .il_hero.fit-content.upcoming-event .intro_subtitle {
-    font-size: 30px;
-    line-height: 1.2;
+    font-size: 20px;
+    line-height: 34px;
+    color: #10BF9C;
   }
 }
 .il_hero.fit-content.upcoming-event .upcoming-event-badge {
@@ -5029,7 +5030,7 @@ a.il_btn {
 @media (max-width: 479.5px) {
   .il_hero.fit-content.upcoming-event .upcoming-event-badge {
     bottom: auto;
-    top: 120px;
+    top: 155px;
   }
 }
 .il_hero.fit-content.upcoming-event .upcoming-event-badge span {
