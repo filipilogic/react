@@ -3,9 +3,6 @@ $agenda_time = get_sub_field('agenda_time');
 $agenda_duration = get_sub_field('agenda_duration');
 $agenda_title = get_sub_field('agenda_title');
 $agenda_content = get_sub_field('tab_content'); 
-$speakers_image = get_sub_field('speakers_image');
-$speakers_name = get_sub_field('speakers_name');
-$speakers_position = get_sub_field('speakers_position');
 ?>
 
 <div class="il_agenda_content">
@@ -18,7 +15,27 @@ $speakers_position = get_sub_field('speakers_position');
             <p class="il_ac_content_title"><?php echo $agenda_title; ?></p>
         </div>
         <div class="il_ac_content_content"><?php echo $agenda_content; ?></div>
-        <p class="il_ac_content_name"><?php echo $speakers_name; ?></p>
-        <p class="il_ac_content_position"><?php echo $speakers_position; ?></p>
+        <?php
+        if( have_rows('speakers') ):?>
+        <div class="il_ac_content_speakers_wrapper">
+            <?php
+            while( have_rows('speakers') ) : the_row();
+                $speakers_name = get_sub_field('speakers_name');
+                $speakers_position = get_sub_field('speakers_position');
+        ?>
+            <div class="il_ac_content_speakers">
+                <p class="il_ac_content_name"><?php echo $speakers_name; ?></p>
+                <p class="il_ac_content_position"><?php echo $speakers_position; ?></p>
+            </div>
+        <?php
+            // End loop.
+            endwhile;
+        ?>
+        </div>
+        <?php
+        else :
+        endif;
+        ?>
+        
     </div>
 </div>

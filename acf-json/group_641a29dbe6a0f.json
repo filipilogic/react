@@ -211,35 +211,6 @@
                             "parent_repeater": "field_641a2a1c450bb"
                         },
                         {
-                            "key": "field_646cc1831ec91",
-                            "label": "Duration",
-                            "name": "agenda_duration",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": [
-                                [
-                                    {
-                                        "field": "field_645b6b4817c3d",
-                                        "operator": "==",
-                                        "value": "style-2"
-                                    }
-                                ]
-                            ],
-                            "wrapper": {
-                                "width": "15",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "parent_repeater": "field_641a2a1c450bb"
-                        },
-                        {
                             "key": "field_645b6c0917c3f",
                             "label": "Title",
                             "name": "agenda_title",
@@ -290,95 +261,120 @@
                             "parent_repeater": "field_641a2a1c450bb"
                         },
                         {
-                            "key": "field_645b6bbc17c3e",
-                            "label": "Speakers Image",
-                            "name": "speakers_image",
+                            "key": "field_6492b14e6a20c",
+                            "label": "Speakers",
+                            "name": "speakers",
                             "aria-label": "",
-                            "type": "image",
+                            "type": "repeater",
                             "instructions": "",
                             "required": 0,
-                            "conditional_logic": [
-                                [
-                                    {
-                                        "field": "field_645b6b4817c3d",
-                                        "operator": "==",
-                                        "value": "style-2"
-                                    }
-                                ]
-                            ],
+                            "conditional_logic": 0,
                             "wrapper": {
-                                "width": "33",
+                                "width": "",
                                 "class": "",
                                 "id": ""
                             },
-                            "return_format": "id",
-                            "library": "all",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": "",
-                            "preview_size": "medium",
-                            "parent_repeater": "field_641a2a1c450bb"
-                        },
-                        {
-                            "key": "field_645b6c4117c40",
-                            "label": "Speakers name",
-                            "name": "speakers_name",
-                            "aria-label": "",
-                            "type": "text",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": [
-                                [
-                                    {
-                                        "field": "field_645b6b4817c3d",
-                                        "operator": "==",
-                                        "value": "style-2"
-                                    }
-                                ]
+                            "layout": "table",
+                            "pagination": 0,
+                            "min": 0,
+                            "max": 0,
+                            "collapsed": "",
+                            "button_label": "Add Row",
+                            "rows_per_page": 20,
+                            "sub_fields": [
+                                {
+                                    "key": "field_645b6bbc17c3e",
+                                    "label": "Speakers Image",
+                                    "name": "speakers_image",
+                                    "aria-label": "",
+                                    "type": "image",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_645b6b4817c3d",
+                                                "operator": "==",
+                                                "value": "style-2"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "33",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "return_format": "id",
+                                    "library": "all",
+                                    "min_width": "",
+                                    "min_height": "",
+                                    "min_size": "",
+                                    "max_width": "",
+                                    "max_height": "",
+                                    "max_size": "",
+                                    "mime_types": "",
+                                    "preview_size": "medium",
+                                    "parent_repeater": "field_6492b14e6a20c"
+                                },
+                                {
+                                    "key": "field_645b6c4117c40",
+                                    "label": "Speakers name",
+                                    "name": "speakers_name",
+                                    "aria-label": "",
+                                    "type": "text",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_645b6b4817c3d",
+                                                "operator": "==",
+                                                "value": "style-2"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "33",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "placeholder": "",
+                                    "prepend": "",
+                                    "append": "",
+                                    "parent_repeater": "field_6492b14e6a20c"
+                                },
+                                {
+                                    "key": "field_645b6c5917c41",
+                                    "label": "Speakers position",
+                                    "name": "speakers_position",
+                                    "aria-label": "",
+                                    "type": "textarea",
+                                    "instructions": "",
+                                    "required": 0,
+                                    "conditional_logic": [
+                                        [
+                                            {
+                                                "field": "field_645b6b4817c3d",
+                                                "operator": "==",
+                                                "value": "style-2"
+                                            }
+                                        ]
+                                    ],
+                                    "wrapper": {
+                                        "width": "33",
+                                        "class": "",
+                                        "id": ""
+                                    },
+                                    "default_value": "",
+                                    "maxlength": "",
+                                    "rows": 3,
+                                    "placeholder": "",
+                                    "new_lines": "br",
+                                    "parent_repeater": "field_6492b14e6a20c"
+                                }
                             ],
-                            "wrapper": {
-                                "width": "33",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "parent_repeater": "field_641a2a1c450bb"
-                        },
-                        {
-                            "key": "field_645b6c5917c41",
-                            "label": "Speakers position",
-                            "name": "speakers_position",
-                            "aria-label": "",
-                            "type": "textarea",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": [
-                                [
-                                    {
-                                        "field": "field_645b6b4817c3d",
-                                        "operator": "==",
-                                        "value": "style-2"
-                                    }
-                                ]
-                            ],
-                            "wrapper": {
-                                "width": "33",
-                                "class": "",
-                                "id": ""
-                            },
-                            "default_value": "",
-                            "maxlength": "",
-                            "rows": 3,
-                            "placeholder": "",
-                            "new_lines": "br",
                             "parent_repeater": "field_641a2a1c450bb"
                         }
                     ]
@@ -493,5 +489,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1684907624
+    "modified": 1687335348
 }

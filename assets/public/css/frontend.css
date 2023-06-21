@@ -3749,6 +3749,18 @@ a.il_btn {
     line-height: 22.5px;
   }
 }
+.il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_speakers_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_speakers {
+  flex: 50% 0 0;
+}
+@media (max-width: 797.5px) {
+  .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_speakers {
+    flex: 100% 0 0;
+  }
+}
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_name {
   font-family: "Font Secondary";
   font-size: 18px;
