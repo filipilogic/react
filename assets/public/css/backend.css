@@ -680,6 +680,9 @@ a.il_btn {
     flex: 100% 0 0;
   }
 }
+.il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_speaker {
+  flex: 100% 0 0;
+}
 .il_agenda.agenda_style_2 .il_agenda_wrap .il_tabs_content .il_agenda_content .il_ac_content_name {
   font-family: "Font Secondary";
   font-size: 18px;

@@ -16,14 +16,17 @@ $agenda_content = get_sub_field('tab_content');
         </div>
         <div class="il_ac_content_content"><?php echo $agenda_content; ?></div>
         <?php
-        if( have_rows('speakers') ):?>
+         $count_speakers = count(get_sub_field('speakers'));
+        if( have_rows('speakers') ):
+           
+        ?>
         <div class="il_ac_content_speakers_wrapper">
             <?php
             while( have_rows('speakers') ) : the_row();
                 $speakers_name = get_sub_field('speakers_name');
                 $speakers_position = get_sub_field('speakers_position');
         ?>
-            <div class="il_ac_content_speakers">
+            <div class="<?php echo  $count_speakers > 1 ? 'il_ac_content_speakers' : 'il_ac_content_speaker' ?>">
                 <p class="il_ac_content_name"><?php echo $speakers_name; ?></p>
                 <p class="il_ac_content_position"><?php echo $speakers_position; ?></p>
             </div>
