@@ -8,9 +8,26 @@ jQuery(document).ready(function ($) {
         let member_data = $(this).data('member');
         let element_id = '#' + member_data;
         let element = $(element_id);
-        $([document.documentElement, document.body]).animate({
-            scrollTop: element.offset().top
-        }, 100);
+
+        var windowsize = $(window).width();
+        if (windowsize < 768) {
+            setTimeout(() => {
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: element.offset().top
+                }, 100);
+            }, 400);
+        } else {
+            setTimeout(() => {
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: element.offset().top - 100
+                }, 100);
+            }, 400);
+        }
+
+
+        // $([document.documentElement, document.body]).animate({
+        //     scrollTop: element.offset().top
+        // }, 100);
     });
     $(".member_text .close").click(function () {
         $(this).parents('.member_text').slideToggle().removeClass('t-open');
