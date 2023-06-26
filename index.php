@@ -45,21 +45,25 @@ get_header();
 							?>
 						</div>
 						<?php
-							if(count($post_categories)){ ?>
-								<div class="il_bp_post_category_wrapper">
+							// if(count($post_categories)){ ?>
+								<!-- <div class="il_bp_post_category_wrapper"> -->
 								<?php
-									foreach($post_categories as $post_category){
-										$cat_class = '';
-										 if($post_category->slug === 'speakers'){
-											$cat_class = 'speakers';
-										 }
+									// foreach($post_categories as $post_category){
+									// 	$cat_class = '';
+									// 	 if($post_category->slug === 'speakers'){
+									// 		$cat_class = 'speakers';
+									// 	 }
 										?>
-										<span class="il_bp_post_category <?php echo $cat_class;?>"><?php echo $post_category->name; ?></span>
-							  <?php } ?>
-								</div>
+										<!-- <span class="il_bp_post_category <?php//echo $cat_class;?>"><?php //echo $post_category->name; ?></span> -->
+							  <?php //} ?>
+								<!-- </div> -->
 							<?php
-							}
+							// }
 						?>
+						<div>
+							<span class="il_bp_post_read_more">Read more</span>
+						</div>
+
 						</div>
 						<div class="il_bp_right">
 							<?php the_post_thumbnail(); ?>

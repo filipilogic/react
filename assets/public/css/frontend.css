@@ -271,6 +271,20 @@ div.margin-xl {
   border: 1px solid var(--color-1);
 }
 
+.il_bp_post_read_more {
+  background: #fff;
+  box-shadow: 13px 16px 34px rgba(12, 11, 65, 0.03);
+  border-radius: 16px;
+  padding: 5px 14px;
+  margin-right: 8px;
+  font-size: 16px;
+  line-height: 2rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--color-2);
+  border: 1px solid var(--color-2);
+}
+
 .il_blog_footer {
   background: radial-gradient(123.87% 106.41% at 51.02% 42.43%, #144A9D 0%, #132051 100%);
   position: relative;
