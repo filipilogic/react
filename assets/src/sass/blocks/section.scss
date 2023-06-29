@@ -201,7 +201,7 @@
           justify-content: start;
         }
         img {
-          height: 52rem;
+          height: 43.7rem;
           object-fit: cover;
           @include limbo-max {
             width:100%;
@@ -213,7 +213,7 @@
             border-radius: 0px 29px 29px 0px;
           }
           @include lg-desk-min {
-            height: 52rem;
+            height: 43.7rem;
           }
         }
       }
@@ -227,6 +227,18 @@
 
     }
 
+    &.about-din-upcoming-event {
+      .il_section_inner {
+        .right {
+          img {
+            height: 52rem;
+            @include lg-desk-min {
+              height: 52rem;
+            }
+          }
+        }
+      }
+    }
   }
 
 }

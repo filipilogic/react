@@ -6441,7 +6441,7 @@ a.il_btn {
   }
 }
 .il_section.style-3 .il_section_inner .right img {
-  height: 52rem;
+  height: 43.7rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -6462,12 +6462,20 @@ a.il_btn {
 }
 @media (min-width: 1659.6px) {
   .il_section.style-3 .il_section_inner .right img {
-    height: 52rem;
+    height: 43.7rem;
   }
 }
 @media (max-width: 1199.5px) {
   .il_section.style-3 .il_section_inner > div {
     flex-basis: 100%;
+  }
+}
+.il_section.style-3.about-din-upcoming-event .il_section_inner .right img {
+  height: 52rem;
+}
+@media (min-width: 1659.6px) {
+  .il_section.style-3.about-din-upcoming-event .il_section_inner .right img {
+    height: 52rem;
   }
 }
 
