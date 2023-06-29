@@ -201,7 +201,7 @@
           justify-content: start;
         }
         img {
-          height: 43.7rem;
+          height: 52rem;
           object-fit: cover;
           @include limbo-max {
             width:100%;
@@ -213,7 +213,7 @@
             border-radius: 0px 29px 29px 0px;
           }
           @include lg-desk-min {
-            height: 43.7rem;
+            height: 52rem;
           }
         }
       }
