@@ -27,7 +27,6 @@ jQuery(document).ready(function ($) {
 
 //Custom links for certain btn's depends utm params
     let websiteURL = document.location.host;
-    console.log(websiteURL)
      if(websiteURL === 'react.shebaonline.org'){
          let urlParams = new URLSearchParams(window.location.search);
          let utmSource = urlParams.get('utm_source');
