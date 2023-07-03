@@ -30,22 +30,39 @@ jQuery(document).ready(function ($) {
     }
   });
 
-  // var urlParams = new URLSearchParams(window.location.search);
-  // var paramName = urlParams.get('utm_source');
-
-  // if(paramName === 'linkedin'){
-  //     $('.hero-din-btn .il_btn:first-of-type').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
-  //     $('.about-din-btn .il_btn').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
-  //     $('.agenda-din-btn a').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
-  //     $('.spot-din-btn .il_btn').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=linkedintraffic');
-  // }
-
-  // if(paramName === 'facebook'){
-  //     $('.hero-din-btn .il_btn:first-of-type').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
-  //     $('.about-din-btn .il_btn').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
-  //     $('.agenda-din-btn a').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
-  //     $('.spot-din-btn .il_btn').attr('href','https://www.eventbrite.com/e/recent-advances-in-cancer-treatment-react-2023-tickets-647054135337?aff=facebooktraffic');
-  // }
+  //Custom links for certain btn's depends utm params
+  var websiteURL = document.location.host;
+  console.log(websiteURL);
+  if (websiteURL === 'react.shebaonline.org') {
+    var urlParams = new URLSearchParams(window.location.search);
+    var utmSource = urlParams.get('utm_source');
+    if (utmSource === 'facebook') {
+      var utmMedium = urlParams.get('utm_medium');
+      var utmCampaign = urlParams.get('utm_campaign');
+      var utmContent = urlParams.get('utm_content');
+      var link_params = '?utm_source=' + utmSource;
+      utmMedium !== null ? link_params = link_params + '&utm_medium=' + utmMedium : link_params;
+      utmCampaign !== null ? link_params = link_params + '&utm_campaign=' + utmCampaign : link_params;
+      utmContent !== null ? link_params = link_params + '&utm_content=' + utmContent : link_params;
+      var link = 'https://forms-wizard.biz/' + link_params + '';
+      $('.hero-din-btn .il_btn:first-of-type').attr('href', link);
+      $('.about-din-btn .il_btn').attr('href', link);
+      $('.agenda-din-btn a').attr('href', link);
+      $('.spot-din-btn .il_btn').attr('href', link);
+    }
+    if (utmSource === 'linkedin') {
+      var _utmMedium = urlParams.get('utm_medium');
+      var _utmCampaign = urlParams.get('utm_campaign');
+      var _link_params = '?utm_source=' + utmSource;
+      _utmMedium !== null ? _link_params = _link_params + '&utm_medium=' + _utmMedium : _link_params;
+      _utmCampaign !== null ? _link_params = _link_params + '&utm_campaign=' + _utmCampaign : _link_params;
+      var _link = 'https://forms-wizard.biz/' + _link_params + '';
+      $('.hero-din-btn .il_btn:first-of-type').attr('href', _link);
+      $('.about-din-btn .il_btn').attr('href', _link);
+      $('.agenda-din-btn a').attr('href', _link);
+      $('.spot-din-btn .il_btn').attr('href', _link);
+    }
+  }
 
   // Technologies
   /*
