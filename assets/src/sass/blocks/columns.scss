@@ -346,26 +346,22 @@
     }
     @include limbo-min {
       form {
-        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
       }
       p {
-        width: 60%;
-        margin-right: 0;
-        margin-bottom: 3rem;
+        width: 44%;
+        margin-bottom: 4rem;
+        &:not(:nth-child(3n+1)) {
+          margin-right: 3%;
+        }
       }
       .submit-button {
-        width: 80%;
+        width: 60%;
         margin-bottom: 0;
-      }
-    }
-    @include desk-min {
-      p {
-        width: 40%;
-      }
-      .submit-button {
-        width: 60%;
+        .wpcf7-submit {
+          margin-right: auto;
+        }
       }
     }
   }

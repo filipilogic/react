@@ -1037,26 +1037,22 @@ a.il_btn {
 }
 @media (min-width: 797.6px) {
   .il_columns.cf7-section.cf7-two-col form {
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .il_columns.cf7-section.cf7-two-col p {
-    width: 60%;
-    margin-right: 0;
-    margin-bottom: 3rem;
+    width: 44%;
+    margin-bottom: 4rem;
+  }
+  .il_columns.cf7-section.cf7-two-col p:not(:nth-child(3n+1)) {
+    margin-right: 3%;
   }
   .il_columns.cf7-section.cf7-two-col .submit-button {
-    width: 80%;
+    width: 60%;
     margin-bottom: 0;
   }
-}
-@media (min-width: 1199.6px) {
-  .il_columns.cf7-section.cf7-two-col p {
-    width: 40%;
-  }
-  .il_columns.cf7-section.cf7-two-col .submit-button {
-    width: 60%;
+  .il_columns.cf7-section.cf7-two-col .submit-button .wpcf7-submit {
+    margin-right: auto;
   }
 }
 .il_columns.buttons-center .buttons {
