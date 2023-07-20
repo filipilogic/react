@@ -1023,7 +1023,17 @@ a.il_btn {
 }
 .il_columns.cf7-section.cf7-two-col .container, .il_columns.cf7-section.cf7-two-col .il-countdown-wrapper {
   max-width: 800px;
-  padding: 20rem 5.6rem;
+  padding: 15rem 5.6rem;
+}
+@media (min-width: 1199.6px) and (max-width: 1360.5px) {
+  .il_columns.cf7-section.cf7-two-col .container, .il_columns.cf7-section.cf7-two-col .il-countdown-wrapper {
+    padding: 15rem 5.6rem;
+  }
+}
+@media (min-width: 1360.6px) and (max-width: 1659.5px) {
+  .il_columns.cf7-section.cf7-two-col .container, .il_columns.cf7-section.cf7-two-col .il-countdown-wrapper {
+    padding: 15rem 5.6rem;
+  }
 }
 @media (min-width: 797.6px) {
   .il_columns.cf7-section.cf7-two-col form {
@@ -1038,6 +1048,7 @@ a.il_btn {
   }
   .il_columns.cf7-section.cf7-two-col form .submit-button {
     width: 60%;
+    margin-bottom: 0;
   }
 }
 .il_columns.buttons-center .buttons {

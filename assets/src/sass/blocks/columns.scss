@@ -336,7 +336,13 @@
   &.cf7-section.cf7-two-col {
     .container {
       max-width: 800px;
-      padding: 20rem 5.6rem;
+      padding: 15rem 5.6rem;
+      @include sm-desk-only {
+        padding: 15rem 5.6rem;
+      }
+      @include md-desk-only {
+        padding: 15rem 5.6rem;
+      }
     }
     @include limbo-min {
       form {
@@ -350,6 +356,7 @@
         }
         .submit-button {
           width: 60%;
+          margin-bottom: 0;
         }
       }
     }
