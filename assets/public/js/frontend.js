@@ -100,6 +100,11 @@ function scrollHeader() {
     document.getElementById("masthead").className = "header-main";
   }
 }
+document.addEventListener('wpcf7mailsent', function (event) {
+  if (event.detail.contactFormId == '1185') {
+    location = '/broadcast';
+  }
+}, false);
 
 /***/ }),
 
