@@ -913,6 +913,10 @@ main {
   margin: auto;
 }
 
+.page-id-1179 .header-main {
+  display: none;
+}
+
 .cols-2 .column {
   width: 49%;
   margin-bottom: 2%;

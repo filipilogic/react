@@ -4213,6 +4213,10 @@ main {
   margin: auto;
 }
 
+.page-id-1179 .header-main {
+  display: none;
+}
+
 .toplevel_page_theme-general-settings .wp-menu-image {
   background-size: 18px !important;
 }
