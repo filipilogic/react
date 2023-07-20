@@ -334,11 +334,22 @@
   }
 
   &.cf7-section.cf7-two-col {
+    .container {
+      max-width: 800px;
+      padding: 20rem 5.6rem;
+    }
     @include limbo-min {
       form {
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         p {
-          width: 38%;
+          width: 40%;
+          margin-right: 0;
+          margin-bottom: 3rem;
+        }
+        .submit-button {
+          width: 60%;
         }
       }
     }
