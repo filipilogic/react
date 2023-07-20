@@ -333,6 +333,17 @@
     }
   }
 
+  &.cf7-section.cf7-two-col {
+    @include limbo-min {
+      form {
+        justify-content: center;
+        p {
+          width: 38%;
+        }
+      }
+    }
+  }
+
   &.buttons-center{
     .buttons{
       display: flex;

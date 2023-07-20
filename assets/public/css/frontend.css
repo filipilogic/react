@@ -4119,6 +4119,14 @@ a.il_btn {
     right: -5%;
   }
 }
+@media (min-width: 797.6px) {
+  .il_columns.cf7-section.cf7-two-col form {
+    justify-content: center;
+  }
+  .il_columns.cf7-section.cf7-two-col form p {
+    width: 38%;
+  }
+}
 .il_columns.buttons-center .buttons {
   display: flex;
   justify-content: center;
