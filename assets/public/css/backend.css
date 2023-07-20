@@ -1041,14 +1041,22 @@ a.il_btn {
     align-items: center;
     justify-content: center;
   }
-  .il_columns.cf7-section.cf7-two-col form p {
-    width: 40%;
+  .il_columns.cf7-section.cf7-two-col p {
+    width: 60%;
     margin-right: 0;
     margin-bottom: 3rem;
   }
-  .il_columns.cf7-section.cf7-two-col form .submit-button {
-    width: 60%;
+  .il_columns.cf7-section.cf7-two-col .submit-button {
+    width: 80%;
     margin-bottom: 0;
+  }
+}
+@media (min-width: 1199.6px) {
+  .il_columns.cf7-section.cf7-two-col p {
+    width: 40%;
+  }
+  .il_columns.cf7-section.cf7-two-col .submit-button {
+    width: 60%;
   }
 }
 .il_columns.buttons-center .buttons {

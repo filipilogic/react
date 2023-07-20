@@ -349,15 +349,23 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        p {
-          width: 40%;
-          margin-right: 0;
-          margin-bottom: 3rem;
-        }
-        .submit-button {
-          width: 60%;
-          margin-bottom: 0;
-        }
+      }
+      p {
+        width: 60%;
+        margin-right: 0;
+        margin-bottom: 3rem;
+      }
+      .submit-button {
+        width: 80%;
+        margin-bottom: 0;
+      }
+    }
+    @include desk-min {
+      p {
+        width: 40%;
+      }
+      .submit-button {
+        width: 60%;
       }
     }
   }
