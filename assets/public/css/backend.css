@@ -4241,6 +4241,10 @@ main {
   display: none;
 }
 
+.block-display-none {
+  display: none;
+}
+
 .toplevel_page_theme-general-settings .wp-menu-image {
   background-size: 18px !important;
 }
