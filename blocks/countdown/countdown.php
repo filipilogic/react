@@ -25,6 +25,10 @@ if(!empty($countdown_end_date)){
     $display_date =  $start_month . ' ' .$start_day.', '.$year;
 }
 
+$class = 'il-countdown-wrapper ';
+if ( ! empty( $block['className'] ) ) {
+    $class .= ' ' . $block['className'];
+}
 
 
 $countdown_time = strtotime($countdown_start_date);
@@ -42,7 +46,7 @@ $yahoo_link = get_field('yahoo_link');
 if($countdown_start_date) :
 ?>
 
-<div class="il-countdown-wrapper">
+<div class="<?php echo $class ?>">
     <div class="il-countdown" id="countdown" date="<?php echo $countdown_start_date; ?>"></div>
     <div class="il-countdown-links">
         <ul>
