@@ -918,7 +918,7 @@ main {
 }
 
 .block-display-none {
-  display: none;
+  display: none !important;
 }
 
 .cols-2 .column {

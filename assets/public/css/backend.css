@@ -4242,7 +4242,7 @@ main {
 }
 
 .block-display-none {
-  display: none;
+  display: none !important;
 }
 
 .toplevel_page_theme-general-settings .wp-menu-image {

@@ -25,7 +25,7 @@ if(!empty($countdown_end_date)){
     $display_date =  $start_month . ' ' .$start_day.', '.$year;
 }
 
-$class = 'il-countdown-wrapper ';
+$class = 'il-countdown-wrapper';
 if ( ! empty( $block['className'] ) ) {
     $class .= ' ' . $block['className'];
 }
