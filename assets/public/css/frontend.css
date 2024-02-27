@@ -921,6 +921,16 @@ main {
   display: none !important;
 }
 
+@media (max-width: 797.5px) {
+  .global_hide_mobile_bg {
+    display: none;
+  }
+}
+@media (min-width: 797.6px) {
+  .global_hide_desktop_bg {
+    display: none;
+  }
+}
 .cols-2 .column {
   width: 49%;
   margin-bottom: 2%;

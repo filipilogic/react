@@ -86,3 +86,15 @@ h6 {
 .block-display-none {
   display: none !important;
 }
+
+@include tab-max {
+  .global_hide_mobile_bg {
+    display: none;
+  }
+}
+
+@include limbo-min {
+  .global_hide_desktop_bg {
+    display: none;
+  }
+}
