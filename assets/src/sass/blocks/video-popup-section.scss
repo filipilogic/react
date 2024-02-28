@@ -62,16 +62,16 @@
                 margin-bottom: 18px;
               }
 
-              @include limbo-min {
-                &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5), &:nth-of-type(6) {
-                  width: auto;
-                  height: 115px;
+              @include limbo-only {
+                &:not(:last-of-type){
+                  margin-right: 15px;
                 }
               }
 
-              &:not(:last-of-type){
-                @include limbo-only {
-                  margin-right: 20px;
+              @include desk-min {
+                &:nth-of-type(3), &:nth-of-type(4), &:nth-of-type(5), &:nth-of-type(6) {
+                  width: auto;
+                  height: 115px;
                 }
               }
             }

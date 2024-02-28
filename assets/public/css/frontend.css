@@ -7197,15 +7197,15 @@ a.il_btn {
     margin-bottom: 18px;
   }
 }
-@media (min-width: 797.6px) {
+@media (min-width: 797.6px) and (max-width: 1199.5px) {
+  .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges img:not(:last-of-type) {
+    margin-right: 15px;
+  }
+}
+@media (min-width: 1199.6px) {
   .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges img:nth-of-type(3), .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges img:nth-of-type(4), .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges img:nth-of-type(5), .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges img:nth-of-type(6) {
     width: auto;
     height: 115px;
-  }
-}
-@media (min-width: 797.6px) and (max-width: 1199.5px) {
-  .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges img:not(:last-of-type) {
-    margin-right: 20px;
   }
 }
 .il_video_section .il_section_inner .right {
