@@ -7176,7 +7176,7 @@ a.il_btn {
 }
 @media (min-width: 797.6px) and (max-width: 1199.5px) {
   .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges {
-    justify-content: center;
+    justify-content: flex-start;
   }
 }
 @media (min-width: 797.6px) {
