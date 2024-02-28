@@ -33,9 +33,12 @@
             display: flex;
             justify-content: space-between;
 
+            @include tab-only {
+              justify-content: flex-start;
+            }
+
             @include tab-max {
               flex-wrap: wrap;
-              padding-bottom: 30px;
             }
 
             @include limbo-only {
@@ -47,16 +50,16 @@
             }
 
             img {
-              @include tab-max {
-                width: calc(20% - 16px);
+              @include tab-only {
+                &:not(:last-of-type) {
+                  margin-right: 15px;
+                }
               }
 
               @include tab-max {
                 width: fit-content;
                 height: auto;
-                &:nth-of-type(1), &:nth-of-type(2), &:nth-of-type(3) {
-                  margin-bottom: 18px;
-                }
+                margin-bottom: 18px;
               }
 
               @include limbo-min {
