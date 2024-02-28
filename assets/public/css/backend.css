@@ -4072,6 +4072,12 @@ a.il_btn {
     align-items: flex-end;
   }
 }
+@media (max-width: 479.5px) {
+  .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 @media (min-width: 479.6px) and (max-width: 797.5px) {
   .il_video_section .il_section_inner .left .il_section_text .il_sheba_best_badges img:not(:last-of-type) {
     margin-right: 15px;

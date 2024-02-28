@@ -50,6 +50,11 @@
             }
 
             img {
+              @include mob-only {
+                margin-left: auto;
+                margin-right: auto;
+              }
+
               @include tab-only {
                 &:not(:last-of-type) {
                   margin-right: 15px;
