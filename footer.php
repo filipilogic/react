@@ -70,6 +70,6 @@ if ( ! empty( $padding) ) {
        ||    (__) <(What are you looking for?)
        ||w--||
 -->
-<?php the_field('body_bottom_script', 'option') ?> <!-- Body End External Script -->
+<?php echo get_field('body_bottom_script', 'option') ?> <!-- Body End External Script -->
 </body>
 </html>
